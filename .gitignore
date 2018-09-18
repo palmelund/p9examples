@@ -113,4 +113,6 @@ sysinfo.txt
 
 */.idea/*
 */Assets/Plugins/Editor/JetBrains*
-*/Captain-Functional-Amethyst/target*
+Captain-Functional-Amethyst/Cargo\.lock
+
+Captain-Functional-Amethyst/target/
