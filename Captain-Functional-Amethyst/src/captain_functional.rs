@@ -4,6 +4,9 @@ use amethyst::core::transform::{GlobalTransform, Transform};
 use amethyst::ecs::prelude::{Component, DenseVecStorage};
 use amethyst::input::{is_close_requested, is_key_down};
 use amethyst::prelude::*;
+use tokio::prelude::*;
+use std::time::{Duration, Instant};
+use tokio::timer::Delay;
 use amethyst::renderer::{
     Camera, Event, PngFormat, Projection, Sprite, Texture, TextureHandle,
     VirtualKeyCode, WithSpriteRender,
@@ -19,7 +22,6 @@ pub struct Captain_Functional;
 pub struct Player {
     pub width: f32,
     pub height: f32,
-	pub lastShot: u128,
 }
 
 fn initialise_camera(world: &mut World) {
@@ -53,16 +55,16 @@ fn initialise_player(world: &mut World, spritesheet: TextureHandle) {
 
     const SPRITESHEET_SIZE: (f32, f32) = (PLAYER_SIZE, PLAYER_SIZE);
 
+	let player = Player{
+			height: PLAYER_SIZE,
+			width: PLAYER_SIZE,
+		};
 	// Create a left plank entity.
 	world
 		.create_entity()
 		.with_sprite(&sprite, spritesheet.clone(), SPRITESHEET_SIZE)
 		.expect("Failed to add sprite render on left paddle")
-		.with(Player{
-			height: PLAYER_SIZE,
-			width: PLAYER_SIZE,
-			lastShot: 0,
-		})
+		.with(player)
 		.with(GlobalTransform::default())
 		.with(left_transform)
 		.build();

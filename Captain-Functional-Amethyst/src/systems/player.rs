@@ -7,9 +7,11 @@ use captain_functional::{Player};
 use amethyst::winit::VirtualKeyCode;
 /// This system is responsible for moving all balls according to their speed
 /// and the time passed.
-pub struct PlayerSystem;
+pub struct PlayerSystem{
+	pub counter: f32,
+}
 const PlayerSpeed: f32 = 100.0;
-const FireRate: u128 = 800;
+const FireRate: f32 = 0.8;
 
 impl<'s> System<'s> for PlayerSystem {
     type SystemData = (
@@ -23,6 +25,7 @@ impl<'s> System<'s> for PlayerSystem {
 		let x = input.axis_value("player_x_axes");
 		let y = input.axis_value("player_y_axes");
 		let space = input.key_is_down(VirtualKeyCode::Space);
+		self.counter += time.delta_seconds();
 
         for (player, transform) in (&players, &mut locals).join() {
 			if let Some(y_amount) = y{
@@ -36,8 +39,9 @@ impl<'s> System<'s> for PlayerSystem {
 						.max(60.0);
 			}
 			let currentTime: u128 = ((time.absolute_time().as_secs()*1000) + (time.absolute_time().subsec_millis() as u64)) as u128;
-			if space && currentTime > FireRate+player.lastShot{
-				player.lastShot = currentTime;
+			
+			if space && self.counter > FireRate {
+				self.counter = 0.0;
 				println!("PIVPIVPIV!!");
 			}
         }

@@ -7,7 +7,7 @@ pub struct CaptainBundle;
 
 impl<'a, 'b> SystemBundle<'a, 'b> for CaptainBundle {
     fn build(self, builder: &mut DispatcherBuilder<'a, 'b>) -> Result<()> {
-		builder.add(PlayerSystem, "playersystem", &["input_system"]);
+		builder.add(PlayerSystem{counter: 0.0}, "playersystem", &["input_system"]);
 
         Ok(())
     }

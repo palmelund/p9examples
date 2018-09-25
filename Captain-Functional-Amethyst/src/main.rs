@@ -1,4 +1,5 @@
 extern crate amethyst;
+extern crate tokio;
 
 mod captain_functional;
 mod systems;
