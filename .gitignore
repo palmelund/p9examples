@@ -188,3 +188,7 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+Captain-Functional-Amethyst/Cargo\.lock
+
+Captain-Functional-Amethyst/target/
