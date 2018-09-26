@@ -6,7 +6,6 @@ use amethyst::input::{is_close_requested, is_key_down};
 use amethyst::prelude::*;
 use tokio::prelude::*;
 use std::time::{Duration, Instant};
-use tokio::timer::Delay;
 use amethyst::renderer::{
     Camera, Event, PngFormat, Projection, Sprite, Texture, TextureHandle,
     VirtualKeyCode, WithSpriteRender,
@@ -22,7 +21,20 @@ pub struct Captain_Functional;
 pub struct Player {
     pub width: f32,
     pub height: f32,
+	pub bulletSprite: TextureHandle,
 }
+
+pub struct Enemy {
+    pub width: f32,
+    pub height: f32,
+}
+
+pub struct Player_Bullet {
+    pub width: f32,
+    pub height: f32,
+}
+
+
 
 fn initialise_camera(world: &mut World) {
     world.create_entity()
@@ -55,9 +67,22 @@ fn initialise_player(world: &mut World, spritesheet: TextureHandle) {
 
     const SPRITESHEET_SIZE: (f32, f32) = (PLAYER_SIZE, PLAYER_SIZE);
 
+	let bullet = {
+		let loader = world.read_resource::<Loader>();
+		let texture_storage = world.read_resource::<AssetStorage<Texture>>();
+		loader.load(
+			"textures/player_bullet.png",
+			PngFormat,
+			Default::default(),
+			(),
+			&texture_storage,
+		)
+	};
+
 	let player = Player{
 			height: PLAYER_SIZE,
 			width: PLAYER_SIZE,
+			bulletSprite: bullet,
 		};
 	// Create a left plank entity.
 	world
@@ -69,6 +94,7 @@ fn initialise_player(world: &mut World, spritesheet: TextureHandle) {
 		.with(left_transform)
 		.build();
 }
+
 
 
 
@@ -89,6 +115,7 @@ impl<'a, 'b> State<GameData<'a, 'b>> for Captain_Functional {
 	fn on_start(&mut self, data: StateData<GameData>) {
 		let world = data.world;
 		world.register::<Player>();
+		world.register::<Player_Bullet>();
 
 		// Load the spritesheet necessary to render the graphics.
 		let spritesheet = {
@@ -111,3 +138,10 @@ impl<'a, 'b> State<GameData<'a, 'b>> for Captain_Functional {
 impl Component for Player {
     type Storage = DenseVecStorage<Self>;
 }
+impl Component for Player_Bullet {
+    type Storage = DenseVecStorage<Self>;
+}
+impl Component for Enemy {
+    type Storage = DenseVecStorage<Self>;
+}
+
