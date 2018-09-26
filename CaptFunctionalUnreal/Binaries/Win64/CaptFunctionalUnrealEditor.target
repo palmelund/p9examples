@@ -16,11 +16,11 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-CaptFunctionalUnreal-4713.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-CaptFunctionalUnreal-2379.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-CaptFunctionalUnreal-4713.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-CaptFunctionalUnreal-2379.pdb",
 			"Type": "SymbolFile"
 		},
 		{

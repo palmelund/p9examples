@@ -17,12 +17,6 @@ public:
 	// Sets default values for this pawn's properties
 	ACaptainFunctionalPawn();
 
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
-
-public:
-	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
@@ -30,15 +24,18 @@ public:
 
 	UPROPERTY(EDITANYWHERE) float speed;
 	UPROPERTY(EDITANYWHERE) int health;
-	UPROPERTY(EDITANYWHERE) AActor* PlayerPaperSprite;
 
 	UPROPERTY(EDITANYWHERE) float min_x_buffer;
 	UPROPERTY(EDITANYWHERE) float min_y_buffer;
 	UPROPERTY(EDITANYWHERE) float max_x_buffer;
 	UPROPERTY(EDITANYWHERE) float max_y_buffer;
-
+	
 	int GetHealth();
 	void SetHealth(int hp);
+
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
 
 private:
 	bool move_up_pressed;
