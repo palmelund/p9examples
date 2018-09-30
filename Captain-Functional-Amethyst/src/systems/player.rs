@@ -1,4 +1,3 @@
-use amethyst::assets::{AssetStorage, Loader};
 use amethyst::core::timing::Time;
 use amethyst::input::InputHandler;
 use amethyst::core::transform::{GlobalTransform, Transform};
@@ -24,16 +23,19 @@ impl<'s> System<'s> for PlayerSystem {
 		WriteStorage<'s, Player_Bullet>,
         Read<'s,  InputHandler<String, String>>,
 		Read<'s,  Time>,
-		Entities<'s>,
+
     );
 
-    fn run(&mut self, (players, mut locals, mut bullets, input, time, entities): Self::SystemData) {
+    fn run(&mut self, (players, mut transforms, mut bullets, input, time): Self::SystemData) {
+		let mut shotBullet = false;
+		let mut bulletX = 0.0;
+		let mut bulletY = 0.0;
 		let x = input.axis_value("player_x_axes");
 		let y = input.axis_value("player_y_axes");
 		let space = input.key_is_down(VirtualKeyCode::Space);
 		self.counter += time.delta_seconds();
 
-        for (player, transform) in (&players, &mut locals).join() {
+        for (player, transform) in (&players, &mut transforms).join() {
 			if let Some(y_amount) = y{
 				transform.translation[1] = (transform.translation[1] + ((y_amount as f32)*time.delta_seconds() * PlayerSpeed))
 						.min(800.0)
@@ -48,15 +50,23 @@ impl<'s> System<'s> for PlayerSystem {
 			
 			if space && self.counter > FireRate {
 				self.counter = 0.0;
-				// Load the spritesheet necessary to render the graphics.
 				
-				let bullet = Player_Bullet{
-					height: PLAYER_SIZE,
-					width: PLAYER_SIZE,
-				};
-
-				
+				shotBullet = true;
+				bulletX = transform.translation[0];
+				bulletY = transform.translation[1];
 			}
         }
+		if shotBullet {
+			for (bullet, transform) in (&mut bullets, &mut transforms).join(){
+				if !bullet.active{
+					transform.translation[0] = bulletX;
+					transform.translation[1] = bulletY;
+					bullet.active = true;
+					break;
+				}	
+			}	
+		}
+		
     }
+
 }

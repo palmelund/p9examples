@@ -11,18 +11,25 @@ const EnemySpeed: f32 = 500.0;
 
 impl<'s> System<'s> for EnemySystem {
     type SystemData = (
-        ReadStorage<'s, Enemy>,
+        WriteStorage<'s, Enemy>,
         WriteStorage<'s, Transform>,
 		Read<'s,  Time>,
     );
 
-    fn run(&mut self, (enemys, mut locals, time): Self::SystemData) {
+    fn run(&mut self, (mut enemys, mut locals, time): Self::SystemData) {
 
-        for (enemy, transform) in (&enemys, &mut locals).join() {
-			transform.translation[0] = (transform.translation[0] + EnemySpeed*time.delta_seconds())
-					.min(1600.0)
-					.max(60.0);
-			println!("Works");
+        for (enemy, transform) in (&mut enemys, &mut locals).join() {
+			if enemy.active{
+				transform.translation[0] = (transform.translation[0] - EnemySpeed*time.delta_seconds());
+				if transform.translation[0] < - 100.0{
+					enemy.active = false;
+				}
+				
+			}
+			else{
+				transform.translation[0] = -100.0;
+			}
+				
         }
     }
 }
