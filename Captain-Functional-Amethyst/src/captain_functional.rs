@@ -11,9 +11,14 @@ use amethyst::renderer::{
     VirtualKeyCode, WithSpriteRender, WindowMessages,
 };
 
+use std::f32::consts::PI;
+
 pub const PLAYER_SIZE: f32 = 60.0;
 pub const BULLET_SIZE: f32 = 30.0;
-pub const ENEMY_SIZE: f32 = 30.0;
+pub const ENEMY_SIZE: f32 = 50.0;
+
+pub const BOSS_SIZE: f32 = 100.0;
+pub const BOSS_SHIELD_SIZE: f32 = 80.0;
 
 pub const ARENA_HEIGHT: f32 = 800.0;
 pub const ARENA_WIDTH: f32 = 1600.0;
@@ -36,15 +41,23 @@ pub struct Enemy {
 }
 
 pub struct Player_Bullet {
-    pub width: f32,
-    pub height: f32,
+	pub width: f32,
+	pub height: f32,
+	pub active: bool,
+}
+
+pub struct EnemyBullet {
+	pub width: f32,
+	pub height: f32,
 	pub active: bool,
 }
 
 pub struct Boss {
     pub width: f32,
     pub height: f32,
-	pub moveDir: bool,
+	pub moveTime: f32,
+	pub moveDir: f32,
+	pub shieldAmount: i32,
 	pub active: bool,
 }
 
@@ -59,7 +72,16 @@ pub struct UI_Entities {
     pub player_score: Entity,
 }
 
-
+impl Boss_Shield {
+	pub fn new(position: f32) -> Boss_Shield {
+		let _progress: f32 = (PI * 2.0) * ( position/3.0);
+		Boss_Shield {
+			width: BOSS_SHIELD_SIZE,
+			height: BOSS_SHIELD_SIZE,
+			progress: _progress,
+		}
+	}
+}
 
 fn initialise_camera(world: &mut World) {
     world.create_entity()
@@ -181,10 +203,10 @@ fn initialise_player_bullets(world: &mut World, spritesheet: TextureHandle) {
 		const SPRITESHEET_SIZE: (f32, f32) = (BULLET_SIZE, BULLET_SIZE);
 
 		let bullet = Player_Bullet{
-				height: BULLET_SIZE,
-				width: BULLET_SIZE,
-				active: false,
-			};
+			height: BULLET_SIZE,
+			width: BULLET_SIZE,
+			active: false,
+		};
 		// Create a left plank entity.
 		world
 			.create_entity()
@@ -195,39 +217,102 @@ fn initialise_player_bullets(world: &mut World, spritesheet: TextureHandle) {
 			.with(left_transform)
 			.build();
 	}
-    
 }
 
-fn initialise_boss(world: &mut World, spritesheet: TextureHandle, sprite1sheet: TextureHandle, sprite2sheet: TextureHandle, sprite3sheet: TextureHandle) {
+fn initialise_enemy_bullets(world: &mut World, spritesheet: TextureHandle) {
+	for x in 0..BULLET_POOL {
+		let mut left_transform = Transform::default();
+
+		// Correctly position the paddles.
+		let y = ARENA_HEIGHT + 50.0;
+		left_transform.translation = Vector3::new(ARENA_WIDTH * 0.5, y, 0.0);
+
+		// Build the sprite for the paddles.
+		let sprite = Sprite {
+			left: 0.0,
+			right: BULLET_SIZE,
+			top: 0.0,
+			bottom: BULLET_SIZE,
+		};
+
+		const SPRITESHEET_SIZE: (f32, f32) = (BULLET_SIZE, BULLET_SIZE);
+
+		let bullet = EnemyBullet{
+			height: BULLET_SIZE,
+			width: BULLET_SIZE,
+			active: false,
+		};
+		// Create a left plank entity.
+		world
+			.create_entity()
+			.with_sprite(&sprite, spritesheet.clone(), SPRITESHEET_SIZE)
+			.expect("Failed to add sprite to bullet")
+			.with(bullet)
+			.with(GlobalTransform::default())
+			.with(left_transform)
+			.build();
+	}
+}
+
+fn initialise_boss(world: &mut World, spritesheet: TextureHandle, spriteShield: [TextureHandle;3]) {
     let mut left_transform = Transform::default();
 
     // Correctly position the paddles.
-    let y = ARENA_HEIGHT / 2.0;
-    left_transform.translation = Vector3::new(PLAYER_SIZE * 0.5, y, 0.0);
+    let y = ARENA_HEIGHT * 4.0;
+    left_transform.translation = Vector3::new(ARENA_WIDTH*1.5, y, 0.0);
 
 	// Build the sprite for the paddles.
-	let sprite = Sprite {
+	let sprite_boss = Sprite {
 		left: 0.0,
-		right: PLAYER_SIZE,
+		right: BOSS_SIZE,
 		top: 0.0,
-		bottom: PLAYER_SIZE,
+		bottom: BOSS_SIZE,
 	};
 
-    const SPRITESHEET_SIZE: (f32, f32) = (PLAYER_SIZE, PLAYER_SIZE);
+	let sprite_shield = Sprite {
+		left: 0.0,
+		right: BOSS_SHIELD_SIZE,
+		top: 0.0,
+		bottom: BOSS_SHIELD_SIZE,
+	};
 
-	let player = Player{
-			height: PLAYER_SIZE,
-			width: PLAYER_SIZE,
-		};
-	// Create a left plank entity.
+	const SPRITEBOSS_SIZE: (f32, f32) = (BOSS_SIZE, BOSS_SIZE);
+	const SPRITEBSHIELD_SIZE: (f32, f32) = (BOSS_SHIELD_SIZE, BOSS_SHIELD_SIZE);
+
+	let boss = Boss{
+		height: BOSS_SIZE,
+		moveTime: 0.0,
+		moveDir: 1.0,
+		width: BOSS_SIZE,
+		shieldAmount: 3,
+		active: false,
+	};
+
+
+	let boss_shield2 = Boss_Shield::new(2.0);
+	let boss_shield3 = Boss_Shield::new(3.0);
+
 	world
 		.create_entity()
-		.with_sprite(&sprite, spritesheet.clone(), SPRITESHEET_SIZE)
-		.expect("Failed to add sprite render to player")
-		.with(player)
+		.with_sprite(&sprite_boss, spritesheet.clone(), SPRITEBOSS_SIZE)
+		.expect("Failed to add sprite render to boss")
+		.with(boss)
 		.with(GlobalTransform::default())
-		.with(left_transform)
+		.with(left_transform.clone())
 		.build();
+
+	// Create a left plank entity.
+	for x in 1..4 {
+		let boss_shield = Boss_Shield::new(x as f32);
+		world
+			.create_entity()
+			.with_sprite(&sprite_shield, spriteShield[x-1].clone(), SPRITEBSHIELD_SIZE)
+			.expect("Failed to add sprite render to boss")
+			.with(boss_shield)
+			.with(GlobalTransform::default())
+			.with(left_transform.clone())
+			.build();
+	}
 }
 
 fn initialise_player(world: &mut World, spritesheet: TextureHandle) {
@@ -283,6 +368,9 @@ impl<'a, 'b> State<GameData<'a, 'b>> for Captain_Functional {
 		let world = data.world;
 		world.register::<Player>();
 		world.register::<Player_Bullet>();
+		world.register::<Boss>();
+		world.register::<Boss_Shield>();
+		world.register::<EnemyBullet>();
 
 		// Load the spritesheet necessary to render the graphics.
 		let spritesheet = {
@@ -364,11 +452,14 @@ impl<'a, 'b> State<GameData<'a, 'b>> for Captain_Functional {
 		};
 
 
-		//initialise_enemys(world, enemy_spritesheet);
-		initialise_player_bullets(world, bullet_spritesheet);
+		initialise_enemys(world, enemy_spritesheet);
+		initialise_boss(world,boss_spritesheet,[shield1_spritesheet,shield2_spritesheet,shield3_spritesheet]);
+		initialise_player_bullets(world, bullet_spritesheet.clone());
+		initialise_enemy_bullets(world, bullet_spritesheet);
 		initialise_player(world, spritesheet);
 		initialise_camera(world);
-		initialise_score(world);
+		//Cant load fonts for some reason?
+		//initialise_score(world);
 	}
 }
 
@@ -379,6 +470,15 @@ impl Component for Player_Bullet {
     type Storage = DenseVecStorage<Self>;
 }
 impl Component for Enemy {
-    type Storage = DenseVecStorage<Self>;
+	type Storage = DenseVecStorage<Self>;
+}
+impl Component for EnemyBullet {
+	type Storage = DenseVecStorage<Self>;
+}
+impl Component for Boss {
+	type Storage = DenseVecStorage<Self>;
+}
+impl Component for Boss_Shield {
+	type Storage = DenseVecStorage<Self>;
 }
 
