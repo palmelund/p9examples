@@ -43,11 +43,22 @@ impl<'s> System<'s> for BossMovement {
 				xpos = transform.translation[0];
 				ypos = transform.translation[1];
 			}
+			else{
+				transform.translation[0] = ARENA_HEIGHT*5.0;
+				transform.translation[1] = ARENA_HEIGHT*3.0;
+			}
 		}
 		for (shield, transform) in (&mut boss_shields, &mut transforms).join() {
-			shield.progress += (PI*2.0)*(time.delta_seconds() * BOSSSHIELDSPEED) / self.circumference;
-			transform.translation[0] = f32::cos(shield.progress)*RADIUS+xpos;
-			transform.translation[1] = f32::sin(shield.progress)*RADIUS+ypos;
+			if shield.active{
+				shield.progress += (PI*2.0)*(time.delta_seconds() * BOSSSHIELDSPEED) / self.circumference;
+				transform.translation[0] = f32::cos(shield.progress)*RADIUS+xpos;
+				transform.translation[1] = f32::sin(shield.progress)*RADIUS+ypos;
+			}
+			else{
+				transform.translation[0] = ARENA_HEIGHT*5.0;
+				transform.translation[1] = ARENA_HEIGHT*3.0;
+			}
+			
 		}
     }
 }

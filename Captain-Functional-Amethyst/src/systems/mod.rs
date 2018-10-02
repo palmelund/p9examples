@@ -6,6 +6,7 @@ mod bullet_collision;
 mod boss_movement;
 mod enemy_shot;
 mod enemy_bullet_movement;
+mod player_collision;
 
 pub use self::player::PlayerSystem;
 pub use self::enemy::EnemySystem;
@@ -15,3 +16,4 @@ pub use self::bullet_collision::BulletCollision;
 pub use self::boss_movement::BossMovement;
 pub use self::enemy_shot::Enemy_Shot;
 pub use self::enemy_bullet_movement::Enemy_Bullet_Movement;
+pub use self::player_collision::Player_Collision;

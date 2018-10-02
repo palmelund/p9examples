@@ -2,7 +2,7 @@ use amethyst::core::timing::Time;
 use amethyst::input::InputHandler;
 use amethyst::core::transform::{Transform};
 use amethyst::ecs::prelude::{Join, Read, ReadStorage, System, WriteStorage};
-use captain_functional::{Player, Player_Bullet};
+use captain_functional::{Player, GameStats, Player_Bullet};
 use amethyst::renderer::{ VirtualKeyCode };
 /// This system is responsible for moving all balls according to their speed
 /// and the time passed.
@@ -19,10 +19,11 @@ impl<'s> System<'s> for PlayerSystem {
 		WriteStorage<'s, Player_Bullet>,
         Read<'s,  InputHandler<String, String>>,
 		Read<'s,  Time>,
+		Read<'s,  GameStats>,
 
     );
 
-    fn run(&mut self, (players, mut transforms, mut bullets, input, time): Self::SystemData) {
+    fn run(&mut self, (players, mut transforms, mut bullets, input, time, gamestats): Self::SystemData) {
 		let mut shotBullet = false;
 		let mut bulletX = 0.0;
 		let mut bulletY = 0.0;
@@ -30,7 +31,9 @@ impl<'s> System<'s> for PlayerSystem {
 		let y = input.axis_value("player_y_axes");
 		let space = input.key_is_down(VirtualKeyCode::Space);
 		self.counter += time.delta_seconds();
-
+		if gamestats.player_health < -3 {
+			println!("YOUR LOST!!")
+		}
         for (player, transform) in (&players, &mut transforms).join() {
 			if let Some(y_amount) = y{
 				transform.translation[1] = (transform.translation[1] + ((y_amount as f32)*time.delta_seconds() * PlayerSpeed))
