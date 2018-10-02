@@ -5,4 +5,4 @@ authors = []
 
 [dependencies]
 amethyst = "0.8.0"
-tokio = "0.1.8"
+rand = "0.3.15"

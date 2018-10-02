@@ -1,33 +1,41 @@
 use amethyst::core::timing::Time;
 use amethyst::input::InputHandler;
-use amethyst::core::transform::Transform;
-use amethyst::ecs::prelude::{Join, Read, ReadStorage, System, WriteStorage};
+use amethyst::core::transform::{GlobalTransform, Transform};
+use amethyst::ecs::prelude::{Join, Read, ReadStorage, System, WriteStorage,Entities};
 use amethyst::core::cgmath::{Vector2};
-use captain_functional::{Player};
-use amethyst::winit::VirtualKeyCode;
+use captain_functional::{Player, Player_Bullet, PLAYER_SIZE};
+use amethyst::renderer::{
+    Camera, Event, PngFormat, Projection, Sprite, Texture, TextureHandle,
+    VirtualKeyCode, WithSpriteRender,
+};
 /// This system is responsible for moving all balls according to their speed
 /// and the time passed.
 pub struct PlayerSystem{
 	pub counter: f32,
 }
-const PlayerSpeed: f32 = 100.0;
+const PlayerSpeed: f32 = 500.0;
 const FireRate: f32 = 0.8;
 
 impl<'s> System<'s> for PlayerSystem {
     type SystemData = (
         ReadStorage<'s, Player>,
         WriteStorage<'s, Transform>,
+		WriteStorage<'s, Player_Bullet>,
         Read<'s,  InputHandler<String, String>>,
 		Read<'s,  Time>,
+
     );
 
-    fn run(&mut self, (players, mut locals, input, time): Self::SystemData) {
+    fn run(&mut self, (players, mut transforms, mut bullets, input, time): Self::SystemData) {
+		let mut shotBullet = false;
+		let mut bulletX = 0.0;
+		let mut bulletY = 0.0;
 		let x = input.axis_value("player_x_axes");
 		let y = input.axis_value("player_y_axes");
 		let space = input.key_is_down(VirtualKeyCode::Space);
 		self.counter += time.delta_seconds();
 
-        for (player, transform) in (&players, &mut locals).join() {
+        for (player, transform) in (&players, &mut transforms).join() {
 			if let Some(y_amount) = y{
 				transform.translation[1] = (transform.translation[1] + ((y_amount as f32)*time.delta_seconds() * PlayerSpeed))
 						.min(800.0)
@@ -42,8 +50,23 @@ impl<'s> System<'s> for PlayerSystem {
 			
 			if space && self.counter > FireRate {
 				self.counter = 0.0;
-				println!("PIVPIVPIV!!");
+				
+				shotBullet = true;
+				bulletX = transform.translation[0];
+				bulletY = transform.translation[1];
 			}
         }
+		if shotBullet {
+			for (bullet, transform) in (&mut bullets, &mut transforms).join(){
+				if !bullet.active{
+					transform.translation[0] = bulletX;
+					transform.translation[1] = bulletY;
+					bullet.active = true;
+					break;
+				}	
+			}	
+		}
+		
     }
+
 }
