@@ -71,6 +71,7 @@ pub struct Boss_Shield {
     pub width: f32,
     pub height: f32,
 	pub progress: f32,
+	pub active: bool,
 }
 
 pub struct UI_Entities {
@@ -85,6 +86,7 @@ impl Boss_Shield {
 			width: BOSS_SHIELD_SIZE,
 			height: BOSS_SHIELD_SIZE,
 			progress: _progress,
+			active, false,
 		}
 	}
 }

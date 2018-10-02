@@ -2,7 +2,7 @@ use amethyst::core::timing::Time;
 use amethyst::core::transform::{Transform};
 use amethyst::ecs::prelude::{Join, Read, ReadStorage, System, WriteStorage, Write};
 use amethyst::core::cgmath::{Vector2};
-use captain_functional::{Player_Bullet, ARENA_WIDTH, Enemy, BULLET_SIZE, ENEMY_SIZE, GameStats, ENEMY_SCORE_REWARD};
+use captain_functional::{Player_Bullet, ARENA_WIDTH, Enemy, BULLET_SIZE, ENEMY_SIZE, GameStats, ENEMY_SCORE_REWARD, Boss, Boss_Shield, BOSS_SHIELD_SIZE, BOSS_SIZE};
 
 /// This system is responsible for moving all balls according to their speed
 /// and the time passed.
@@ -15,11 +15,13 @@ impl<'s> System<'s> for BulletCollision {
     type SystemData = (
         WriteStorage<'s, Player_Bullet>,
 		WriteStorage<'s, Enemy>,
+		WriteStorage<'s, Boss>,
+		WriteStorage<'s, Boss_Shield>,
         ReadStorage<'s, Transform>,
 		Write<'s, GameStats>,
     );
 
-    fn run(&mut self, (mut bullets, mut enemies,  transforms, mut game_stats): Self::SystemData) {
+    fn run(&mut self, (mut bullets, mut enemies, mut bosses, mut boss_shields  transforms, mut game_stats): Self::SystemData) {
         for (bullet, bullet_trans) in (&mut bullets, &transforms).join() {
 			if bullet.active{
 				for (enemy, enemy_trans) in (&mut enemies, &transforms).join() {
@@ -30,6 +32,14 @@ impl<'s> System<'s> for BulletCollision {
 							game_stats.score += ENEMY_SCORE_REWARD;
 
 							println!("Score: {}, Player Health: {}", game_stats.score, game_stats.player_health);
+						}
+					}
+				}
+				for (shield, shield_trans) in (&mut boss_shields, &transforms).join(){
+					if shield.active && rect_overlap(bullet_trans.translation[0], bullet_trans.translation[1], BULLET_SIZE, shield_trans.translation[0], shield_trans.translation[1], BOSS_SHIELD_SIZE){
+						shield.active = false;
+						for shield in (&mut bosses).join(){
+							shield.shieldAmount -= 1;
 						}
 					}
 				}
