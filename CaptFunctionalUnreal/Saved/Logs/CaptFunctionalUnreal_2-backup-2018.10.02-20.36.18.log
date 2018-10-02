@@ -1,0 +1,1335 @@
+﻿Log file open, 10/02/18 09:51:29
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine without a game
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: Loading recent project file: ../../../../../../Development/CaptFunctionalUnreal/CaptFunctionalUnreal.uproject
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.195632
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.223s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz, GPU: Intel(R) HD Graphics 620
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: -EpicPortal 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.02-07.51.29:634][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.02-07.51.29:634][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.02-07.51.29:669][  0]LogHAL: Display: Platform has ~ 16 GB [17059516416 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.02-07.51.29:669][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.02-07.51.29:669][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.02-07.51.29:670][  0]LogInit: Computer: DESKTOP-TGENN00
+[2018.10.02-07.51.29:670][  0]LogInit: User: FrederikPalmelund
+[2018.10.02-07.51.29:670][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.10.02-07.51.29:671][  0]LogInit: High frequency timer resolution =2.835939 MHz
+[2018.10.02-07.51.29:671][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.10.02-07.51.29:671][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.02-07.51.29:671][  0]LogMemory: Process Physical Memory: 99.01 MB used, 99.01 MB peak
+[2018.10.02-07.51.29:671][  0]LogMemory: Process Virtual Memory: 82.41 MB used, 82.41 MB peak
+[2018.10.02-07.51.29:671][  0]LogMemory: Physical Memory: 6363.05 MB used,  9906.18 MB free, 16269.22 MB total
+[2018.10.02-07.51.29:671][  0]LogMemory: Virtual Memory: 4614.79 MB used,  9906.18 MB free, 134217728.00 MB total
+[2018.10.02-07.51.29:735][  0]LogInit: Using OS detected language (en-GB).
+[2018.10.02-07.51.29:735][  0]LogInit: Using OS detected locale (en-DK).
+[2018.10.02-07.51.29:739][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.10.02-07.51.30:423][  0]LogStreaming: Display: Took  0.689s to InitEngineTextLocalization.
+[2018.10.02-07.51.30:423][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.02-07.51.30:483][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.02-07.51.30:483][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.02-07.51.30:773][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.02-07.51.30:773][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.02-07.51.30:839][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940MX' (Feature Level 11_0)
+[2018.10.02-07.51.30:839][  0]LogD3D11RHI:       4055/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.10.02-07.51.30:851][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.10.02-07.51.30:851][  0]LogD3D11RHI:       128/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.10.02-07.51.30:854][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.02-07.51.30:854][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.02-07.51.30:854][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.02-07.51.30:885][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.02-07.51.30:885][  0]LogD3D11RHI:     GPU DeviceId: 0x134d (for the marketing name, search the web for "GPU Device Id")
+[2018.10.02-07.51.30:885][  0]LogWindows: EnumDisplayDevices:
+[2018.10.02-07.51.30:886][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.10.02-07.51.30:886][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.10.02-07.51.30:886][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.10.02-07.51.30:886][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.10.02-07.51.30:886][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940MX
+[2018.10.02-07.51.30:886][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.10.02-07.51.30:887][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.10.02-07.51.30:887][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2018.10.02-07.51.30:932][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.02-07.51.30:951][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.02-07.51.30:951][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (../../../../../../Development/CaptFunctionalUnreal/Intermediate/Shaders/WorkingDirectory/3176/).
+[2018.10.02-07.51.30:951][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Frederik Palmelund/AppData/Local/Temp/UnrealShaderWorkingDir/F37103BD46F4A89703548FB08C427BB2/'.
+[2018.10.02-07.51.31:326][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.02-07.51.31:343][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.02-07.51.31:362][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.02-07.51.31:381][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.02-07.51.31:401][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.02-07.51.31:419][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.02-07.51.31:438][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.02-07.51.31:459][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.02-07.51.31:468][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.02-07.51.31:567][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-07.51.31:567][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-07.51.31:567][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-07.51.31:567][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-07.51.31:567][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-07.51.31:567][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-07.51.31:567][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-07.51.31:567][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-07.51.31:567][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-07.51.31:567][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-07.51.31:567][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-07.51.31:567][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-07.51.31:567][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-07.51.31:567][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-07.51.31:567][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-07.51.31:567][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-07.51.31:567][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-07.51.31:567][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.02-07.51.31:569][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.02-07.51.31:640][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.02-07.51.31:640][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.02-07.51.31:672][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.02-07.51.31:672][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.02-07.51.31:689][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.02-07.51.31:707][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.02-07.51.31:724][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.02-07.51.31:741][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.02-07.51.31:754][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.02-07.51.31:754][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.02-07.51.31:857][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.02-07.51.31:857][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.02-07.51.31:857][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.02-07.51.32:778][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.02-07.51.32:843][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Frederik Palmelund/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.02-07.51.32:843][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Frederik Palmelund/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.02-07.51.32:843][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Development/CaptFunctionalUnreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.02-07.51.32:843][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.02-07.51.32:843][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Development/CaptFunctionalUnreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.02-07.51.32:843][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.02-07.51.32:860][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.02-07.51.32:872][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Frederik Palmelund/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.02-07.51.32:872][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.02-07.51.32:872][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.02-07.51.32:903][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.02-07.51.32:905][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.02-07.51.32:905][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.02-07.51.33:003][  0]LogAssetRegistry: FAssetRegistry took 0.0285 seconds to start up
+[2018.10.02-07.51.33:476][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.02-07.51.33:675][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.02-07.51.33:682][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.02-07.51.33:682][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.02-07.51.33:682][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.02-07.51.33:682][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.02-07.51.33:708][  0]LogNetVersion: CaptFunctionalUnreal 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1158027450)
+[2018.10.02-07.51.34:454][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.141640 seconds
+[2018.10.02-07.51.34:464][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.02-07.51.34:464][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.10.02-07.51.34:464][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.02-07.51.35:390][  0]LogWmfMedia: Failed to load mf.dll
+[2018.10.02-07.51.35:390][  0]LogWmfMedia: Failed to load required Windows Media Foundation libraries
+[2018.10.02-07.51.35:393][  0]LogWindowsMoviePlayer: Could not load mf.dll. Library not found.
+[2018.10.02-07.51.35:394][  0]LogWindowsMoviePlayer: Could not load mfplat.dll. Library not found.
+[2018.10.02-07.51.35:395][  0]LogWindowsMoviePlayer: Could not load mfplay.dll. Library not found.
+[2018.10.02-07.51.35:708][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.02-07.51.35:721][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.02-07.51.36:317][  0]SourceControl: Source control is disabled
+[2018.10.02-07.51.36:317][  0]SourceControl: Source control is disabled
+[2018.10.02-07.51.36:319][  0]SourceControl: Source control is disabled
+[2018.10.02-07.51.36:320][  0]SourceControl: Source control is disabled
+[2018.10.02-07.51.36:524][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.02-07.51.36:629][  0]LogOcInput: OculusInput pre-init called
+[2018.10.02-07.51.36:706][  0]LogEngine: Initializing Engine...
+[2018.10.02-07.51.36:707][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.02-07.51.36:709][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.02-07.51.36:709][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.02-07.51.36:709][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.02-07.51.36:709][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.02-07.51.36:988][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.02-07.51.37:017][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.02-07.51.37:040][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-07.51.37:062][  0]LogInit: FAudioDevice initialized.
+[2018.10.02-07.51.37:063][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.02-07.51.37:167][  0]LogDerivedDataCache: Saved boot cache 0.11s 71MB C:/Users/Frederik Palmelund/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.02-07.51.37:171][  0]LogInit: Texture streaming: Enabled
+[2018.10.02-07.51.37:202][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.02-07.51.37:202][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={E971FAA9-485B-2CEB-76D5-9FA321480CEC}
+[2018.10.02-07.51.37:227][  0]LogInit: Transaction tracking system initialized
+[2018.10.02-07.51.37:279][  0]BlueprintLog: New page: Editor Load
+[2018.10.02-07.51.37:421][  0]LocalizationService: Localization service is disabled
+[2018.10.02-07.51.37:965][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.02-07.51.37:965][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.02-07.51.37:965][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.02-07.51.37:965][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.02-07.51.37:965][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.02-07.51.37:965][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.02-07.51.37:965][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.02-07.51.38:161][  0]LogFileCache: Scanning file cache for directory 'C:/Development/CaptFunctionalUnreal/Content/' took 0.01s
+[2018.10.02-07.51.38:161][  0]SourceControl: Source control is disabled
+[2018.10.02-07.51.38:162][  0]Cmd: MAP LOAD FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.02-07.51.38:162][  0]LightingResults: New page: Lighting Build
+[2018.10.02-07.51.38:168][  0]MapCheck: New page: Map Check
+[2018.10.02-07.51.38:168][  0]LightingResults: New page: Lighting Build
+[2018.10.02-07.51.38:613][  0]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-07.51.38:623][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.02-07.51.38:650][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.02-07.51.38:741][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 90.554ms to complete.
+[2018.10.02-07.51.38:741][  0]LogFileHelpers: Loading map 'Level1' took 0.580
+[2018.10.02-07.51.38:869][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-07.51.38:877][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-07.51.38:887][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-07.51.38:895][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-07.51.38:918][  0]LogCollectionManager: Loaded 0 collections in 0.010529 seconds
+[2018.10.02-07.51.38:971][  0]LogFileCache: Scanning file cache for directory 'C:/Development/CaptFunctionalUnreal/Saved/Collections/' took 0.01s
+[2018.10.02-07.51.38:971][  0]LogFileCache: Scanning file cache for directory 'C:/Development/CaptFunctionalUnreal/Content/Developers/FrederikPalmelund/Collections/' took 0.01s
+[2018.10.02-07.51.38:971][  0]LogFileCache: Scanning file cache for directory 'C:/Development/CaptFunctionalUnreal/Content/Collections/' took 0.01s
+[2018.10.02-07.51.38:971][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.10.02-07.51.38:992][  0]LogContentBrowser: Native class hierarchy populated in 0.0211 seconds. Added 2572 classes and 603 folders.
+[2018.10.02-07.51.39:016][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.10.02-07.51.39:025][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.02-07.51.39:037][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.10.02-07.51.39:168][  0]LogSlate: Took 0.000418 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.02-07.51.39:174][  0]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.02-07.51.39:183][  0]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.02-07.51.39:293][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.10.02-07.51.39:473][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.02-07.51.39:473][  0]LogLoad: (Engine Initialization) Total time: 12.00 seconds
+[2018.10.02-07.51.39:473][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.02-07.51.39:492][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.02-07.51.39:513][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.02-07.51.39:533][  0]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.02-07.51.39:561][  1]LogAssetRegistry: Asset discovery search completed in 6.5807 seconds
+[2018.10.02-07.51.39:564][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.02-07.51.39:564][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000073 seconds (updated 0 objects)
+[2018.10.02-07.51.44:118][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-07.51.44:295][ 80]LogSlate: Took 0.001359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.02-07.51.44:356][ 80]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/CaptainFunctional.CaptainFunctional
+[2018.10.02-07.51.45:946][ 80]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.10.02-07.51.46:946][ 80]LogSlate: Took 0.006279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.02-07.51.47:267][ 81]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.02-07.51.58:321][248]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.02-07.52.03:250][294]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-07.52.03:602][294]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-07.52.03:630][294]PIE: New page: PIE session: Level1 (Oct 2, 2018, 11:52:03 AM)
+[2018.10.02-07.52.03:631][294]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-07.52.03:671][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039518s)
+[2018.10.02-07.52.03:679][294]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-07.52.03:681][294]LogPlayLevel: PIE: World Init took: (0.010185s)
+[2018.10.02-07.52.03:681][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.051137s)
+[2018.10.02-07.52.04:222][294]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-07.52.04:397][294]LogInit: FAudioDevice initialized.
+[2018.10.02-07.52.04:511][294]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-07.52.04:534][294]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.10.02-09.52.04
+[2018.10.02-07.52.04:536][294]LogWorld: Bringing up level for play took: 0.006337
+[2018.10.02-07.52.04:660][294]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0029 seconds. Added 10 classes and 0 folders.
+[2018.10.02-07.52.04:667][294]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.817
+[2018.10.02-07.52.10:326][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-07.52.10:465][373]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-07.52.10:827][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-07.52.11:032][374]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.10.02-07.52.12:314][395]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-07.52.40:915][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.02-07.52.42:536][762]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctional5DC922E04162F9D08629479C306515AF.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.02-07.53.02:018][ 68]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.02-07.53.02:200][ 68]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctionalA61BE70A4EB4AFB0F67896ABBD40C63A.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.02-07.53.23:836][418]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.02-07.53.28:510][519]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-07.53.28:788][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-07.53.28:789][519]PIE: New page: PIE session: Level1 (Oct 2, 2018, 11:53:28 AM)
+[2018.10.02-07.53.28:789][519]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-07.53.28:828][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037719s)
+[2018.10.02-07.53.28:835][519]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-07.53.28:836][519]LogPlayLevel: PIE: World Init took: (0.008836s)
+[2018.10.02-07.53.28:838][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.047705s)
+[2018.10.02-07.53.29:440][519]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-07.53.29:669][519]LogInit: FAudioDevice initialized.
+[2018.10.02-07.53.29:757][519]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-07.53.29:766][519]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.10.02-09.53.29
+[2018.10.02-07.53.29:768][519]LogWorld: Bringing up level for play took: 0.005717
+[2018.10.02-07.53.29:797][519]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1.949
+[2018.10.02-07.53.47:932][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-07.53.48:091][794]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-07.53.48:161][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-07.53.48:394][795]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.10.02-07.53.48:913][808]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-07.53.48:959][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.02-07.53.49:056][808]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Level1A981729647C2152C064DD8B89531F72F.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1.umap'
+[2018.10.02-07.53.49:095][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2018.10.02-07.53.49:137][808]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Level1_BuiltData743FD9154FCAE1D88F018496F433B8B3.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1_BuiltData.uasset'
+[2018.10.02-07.53.50:568][844]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-07.53.50:753][847]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/EnemyBlueprint.EnemyBlueprint
+[2018.10.02-07.54.07:847][115]BlueprintLog: New page: Compile EnemyBlueprint
+[2018.10.02-07.54.13:501][178]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-07.54.13:577][178]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-07.54.13:577][178]PIE: New page: PIE session: Level1 (Oct 2, 2018, 11:54:13 AM)
+[2018.10.02-07.54.13:577][178]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-07.54.13:580][178]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003639s)
+[2018.10.02-07.54.13:582][178]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-07.54.13:582][178]LogPlayLevel: PIE: World Init took: (0.001584s)
+[2018.10.02-07.54.13:582][178]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.005448s)
+[2018.10.02-07.54.13:630][178]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-07.54.13:651][178]LogInit: FAudioDevice initialized.
+[2018.10.02-07.54.13:704][178]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-07.54.13:705][178]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.10.02-09.54.13
+[2018.10.02-07.54.13:706][178]LogWorld: Bringing up level for play took: 0.000867
+[2018.10.02-07.54.13:725][178]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.123
+[2018.10.02-07.54.31:447][459]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-07.54.31:513][459]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-07.54.31:586][459]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-07.54.31:660][460]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.10.02-07.54.33:706][497]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-07.54.42:821][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/EnemyBlueprint" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/EnemyBlueprint.uasset" SILENT=true
+[2018.10.02-07.54.43:393][583]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/EnemyBlueprint4D852BEF4E912C8AAC78659721466E5E.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/EnemyBlueprint.uasset'
+[2018.10.02-07.54.44:271][600]BlueprintLog: New page: Compile EnemyBlueprint
+[2018.10.02-07.54.47:774][658]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-07.54.47:851][658]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-07.54.47:851][658]PIE: New page: PIE session: Level1 (Oct 2, 2018, 11:54:47 AM)
+[2018.10.02-07.54.47:851][658]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-07.54.47:854][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002583s)
+[2018.10.02-07.54.47:856][658]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-07.54.47:856][658]LogPlayLevel: PIE: World Init took: (0.001669s)
+[2018.10.02-07.54.47:856][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.004458s)
+[2018.10.02-07.54.47:909][658]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-07.54.47:939][658]LogInit: FAudioDevice initialized.
+[2018.10.02-07.54.47:980][658]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-07.54.47:981][658]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.10.02-09.54.47
+[2018.10.02-07.54.47:981][658]LogWorld: Bringing up level for play took: 0.000896
+[2018.10.02-07.54.47:995][658]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.147
+[2018.10.02-07.55.11:279][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-07.55.11:335][ 13]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-07.55.11:378][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-07.55.11:417][ 14]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.10.02-07.55.13:430][ 49]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-07.56.03:647][853]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.02-07.56.09:758][891]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-07.56.09:833][892]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-07.56.10:244][892]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-07.56.10:246][892]PIE: New page: PIE session: Level1 (Oct 2, 2018, 11:56:10 AM)
+[2018.10.02-07.56.10:248][892]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-07.56.10:289][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040116s)
+[2018.10.02-07.56.10:302][892]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-07.56.10:305][892]LogPlayLevel: PIE: World Init took: (0.014998s)
+[2018.10.02-07.56.10:305][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.057868s)
+[2018.10.02-07.56.10:895][892]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-07.56.11:169][892]LogInit: FAudioDevice initialized.
+[2018.10.02-07.56.11:278][892]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-07.56.11:287][892]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.10.02-09.56.11
+[2018.10.02-07.56.11:289][892]LogWorld: Bringing up level for play took: 0.006318
+[2018.10.02-07.56.11:318][892]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1.471
+[2018.10.02-07.56.47:310][370]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-07.56.47:484][370]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-07.56.47:988][370]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-07.56.48:219][371]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.10.02-07.56.50:583][405]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-07.56.53:383][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.02-07.56.53:609][491]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctional31ABD1BC45A238941C50EBBCD1483A45.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.02-07.58.34:753][862]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.02-07.58.40:518][907]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-07.58.41:079][907]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-07.58.41:080][907]PIE: New page: PIE session: Level1 (Oct 2, 2018, 11:58:41 AM)
+[2018.10.02-07.58.41:081][907]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-07.58.41:114][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032043s)
+[2018.10.02-07.58.41:131][907]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-07.58.41:132][907]LogPlayLevel: PIE: World Init took: (0.018552s)
+[2018.10.02-07.58.41:133][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.052418s)
+[2018.10.02-07.58.41:985][907]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-07.58.42:451][907]LogInit: FAudioDevice initialized.
+[2018.10.02-07.58.42:563][907]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-07.58.42:572][907]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.10.02-09.58.42
+[2018.10.02-07.58.42:574][907]LogWorld: Bringing up level for play took: 0.006228
+[2018.10.02-07.58.42:602][907]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.754
+[2018.10.02-07.59.01:687][160]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-07.59.01:749][160]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-07.59.01:818][160]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-07.59.01:893][161]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.10.02-07.59.07:196][240]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.00.03:210][162]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.02-08.00.11:710][241]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.02-08.00.15:121][287]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.00.15:247][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.00.15:247][287]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:00:15 PM)
+[2018.10.02-08.00.15:247][287]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.00.15:249][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001857s)
+[2018.10.02-08.00.15:250][287]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.00.15:250][287]LogPlayLevel: PIE: World Init took: (0.001230s)
+[2018.10.02-08.00.15:250][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003222s)
+[2018.10.02-08.00.15:322][287]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.00.15:382][287]LogInit: FAudioDevice initialized.
+[2018.10.02-08.00.15:418][287]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.00.15:419][287]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.10.02-10.00.15
+[2018.10.02-08.00.15:420][287]LogWorld: Bringing up level for play took: 0.000980
+[2018.10.02-08.00.15:445][287]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.403
+[2018.10.02-08.00.32:209][517]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.01.04:606][ 36]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.01.04:682][ 36]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.01.04:734][ 36]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.01.04:751][ 37]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.10.02-08.01.48:805][211]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.02-08.01.50:747][229]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.01.53:643][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.02-08.01.54:420][242]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctional1C2C9B404E73A327095402B0B84992DE.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.02-08.01.55:935][266]LogSlate: Window 'EnemyBlueprint' being destroyed
+[2018.10.02-08.01.55:959][266]LogSlate: Window 'EnemyBlueprint' being destroyed
+[2018.10.02-08.01.56:134][266]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.02-08.02.15:079][568]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.02.17:217][590]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/EnemyBlueprint.EnemyBlueprint
+[2018.10.02-08.05.06:943][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/EnemyBlueprint" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/EnemyBlueprint.uasset" SILENT=true
+[2018.10.02-08.05.07:008][ 73]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/EnemyBlueprintB4E3227D4748F9AAD997DFA647E6DE85.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/EnemyBlueprint.uasset'
+[2018.10.02-08.05.30:110][466]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2018.10.02-08.06.04:778][771]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/CaptainFunctional.CaptainFunctional
+[2018.10.02-08.07.18:708][669]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.02-08.07.55:938][138]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.02-08.08.10:044][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.02-08.08.10:287][258]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctionalA84037464D9DEC077A5B6AB8E4340A59.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.02-08.08.15:607][347]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.02-08.08.21:761][431]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.08.21:762][431]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.08.21:898][431]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.08.21:899][431]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:08:21 PM)
+[2018.10.02-08.08.21:899][431]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.08.21:901][431]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002202s)
+[2018.10.02-08.08.21:902][431]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.08.21:902][431]LogPlayLevel: PIE: World Init took: (0.001022s)
+[2018.10.02-08.08.21:902][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003374s)
+[2018.10.02-08.08.21:994][431]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.08.22:026][431]LogInit: FAudioDevice initialized.
+[2018.10.02-08.08.22:058][431]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.08.22:060][431]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.02-10.08.22
+[2018.10.02-08.08.22:060][431]LogWorld: Bringing up level for play took: 0.000571
+[2018.10.02-08.08.22:080][431]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.232
+[2018.10.02-08.08.52:586][799]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.08.52:759][799]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.08.52:936][799]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.08.53:002][800]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.10.02-08.08.53:604][809]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.09.06:716][967]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.02-08.09.14:079][ 32]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.09.14:137][ 33]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.09.14:287][ 33]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.09.14:288][ 33]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:09:14 PM)
+[2018.10.02-08.09.14:288][ 33]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.09.14:291][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003379s)
+[2018.10.02-08.09.14:293][ 33]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.09.14:293][ 33]LogPlayLevel: PIE: World Init took: (0.001735s)
+[2018.10.02-08.09.14:293][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.005370s)
+[2018.10.02-08.09.14:415][ 33]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.09.14:474][ 33]LogInit: FAudioDevice initialized.
+[2018.10.02-08.09.14:530][ 33]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.09.14:531][ 33]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.02-10.09.14
+[2018.10.02-08.09.14:531][ 33]LogWorld: Bringing up level for play took: 0.000922
+[2018.10.02-08.09.14:555][ 33]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.707
+[2018.10.02-08.09.29:863][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.09.30:029][235]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.09.30:517][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.09.30:668][236]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.10.02-08.09.31:456][248]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.09.33:442][269]LogEditorTransaction: Undo Move Node
+[2018.10.02-08.09.34:430][281]LogEditorTransaction: Undo Delete current selection
+[2018.10.02-08.09.35:132][292]LogEditorTransaction: Undo Move Node
+[2018.10.02-08.09.36:556][317]LogEditorTransaction: Undo Delete current selection
+[2018.10.02-08.09.44:498][459]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.02-08.09.47:717][507]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.09.47:781][508]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.09.48:231][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.09.48:233][508]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:09:48 PM)
+[2018.10.02-08.09.48:234][508]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.09.48:269][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033951s)
+[2018.10.02-08.09.48:280][508]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.09.48:281][508]LogPlayLevel: PIE: World Init took: (0.011894s)
+[2018.10.02-08.09.48:281][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.047646s)
+[2018.10.02-08.09.48:884][508]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.09.49:055][508]LogInit: FAudioDevice initialized.
+[2018.10.02-08.09.49:149][508]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.09.49:157][508]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.02-10.09.49
+[2018.10.02-08.09.49:160][508]LogWorld: Bringing up level for play took: 0.005626
+[2018.10.02-08.09.49:198][508]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1.349
+[2018.10.02-08.10.01:710][691]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.10.01:786][691]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.10.01:834][691]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.10.01:902][692]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.10.02-08.10.02:470][701]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.10.23:582][982]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.02-08.10.27:126][ 21]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.10.27:185][ 22]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.10.27:646][ 22]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.10.27:647][ 22]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:10:27 PM)
+[2018.10.02-08.10.27:648][ 22]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.10.27:675][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027002s)
+[2018.10.02-08.10.27:688][ 22]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.10.27:692][ 22]LogPlayLevel: PIE: World Init took: (0.015654s)
+[2018.10.02-08.10.27:693][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.044706s)
+[2018.10.02-08.10.28:200][ 22]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.10.28:434][ 22]LogInit: FAudioDevice initialized.
+[2018.10.02-08.10.28:527][ 22]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.10.28:535][ 22]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.02-10.10.28
+[2018.10.02-08.10.28:537][ 22]LogWorld: Bringing up level for play took: 0.005687
+[2018.10.02-08.10.28:564][ 22]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.716
+[2018.10.02-08.10.42:453][265]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.10.42:524][265]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.10.42:563][265]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.10.42:612][266]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.10.02-08.10.43:500][284]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.10.54:336][517]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.02-08.10.58:211][605]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.10.58:247][606]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.10.58:278][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.10.58:278][606]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:10:58 PM)
+[2018.10.02-08.10.58:278][606]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.10.58:281][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002375s)
+[2018.10.02-08.10.58:281][606]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.10.58:282][606]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2018.10.02-08.10.58:282][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003366s)
+[2018.10.02-08.10.58:331][606]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.10.58:352][606]LogInit: FAudioDevice initialized.
+[2018.10.02-08.10.58:388][606]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.10.58:389][606]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.02-10.10.58
+[2018.10.02-08.10.58:389][606]LogWorld: Bringing up level for play took: 0.000741
+[2018.10.02-08.10.58:401][606]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.554
+[2018.10.02-08.11.08:847][829]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.11.08:905][829]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.11.08:972][829]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.11.09:039][830]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.10.02-08.11.11:121][878]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.11.36:184][435]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.11.36:214][435]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.10.02-08.11.36:272][435]LogPlayLevel: [PlayLevel] Compiling CaptainFunctional before play...
+[2018.10.02-08.11.36:604][435]LogPlayLevel: PlayLevel: Blueprint regeneration took 390 ms (1 blueprints)
+[2018.10.02-08.11.36:605][435]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:11:36 PM)
+[2018.10.02-08.11.36:605][435]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.11.36:608][435]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002917s)
+[2018.10.02-08.11.36:609][435]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.11.36:609][435]LogPlayLevel: PIE: World Init took: (0.001129s)
+[2018.10.02-08.11.36:609][435]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.004249s)
+[2018.10.02-08.11.36:656][435]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.11.36:675][435]LogInit: FAudioDevice initialized.
+[2018.10.02-08.11.36:715][435]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.11.36:717][435]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.02-10.11.36
+[2018.10.02-08.11.36:717][435]LogWorld: Bringing up level for play took: 0.001475
+[2018.10.02-08.11.36:730][435]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.882
+[2018.10.02-08.11.39:232][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.11.52:445][805]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.11.52:509][805]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.11.52:553][805]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.11.52:599][806]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.10.02-08.11.53:564][820]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.12.18:597][288]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.12.55:049][ 96]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.14.07:451][709]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.02-08.14.10:920][786]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.14.10:961][786]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.14.10:961][786]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:14:10 PM)
+[2018.10.02-08.14.10:962][786]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.14.10:965][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002917s)
+[2018.10.02-08.14.10:967][786]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.14.10:967][786]LogPlayLevel: PIE: World Init took: (0.001591s)
+[2018.10.02-08.14.10:967][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.004837s)
+[2018.10.02-08.14.11:020][786]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.14.11:042][786]LogInit: FAudioDevice initialized.
+[2018.10.02-08.14.11:077][786]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.14.11:078][786]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.02-10.14.11
+[2018.10.02-08.14.11:078][786]LogWorld: Bringing up level for play took: 0.000901
+[2018.10.02-08.14.11:091][786]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.757
+[2018.10.02-08.14.27:368][149]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.14.38:881][617]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.14.38:927][617]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.14.38:994][617]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.14.39:027][618]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.10.02-08.14.52:410][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.02-08.14.52:564][949]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctionalB3972290474AC150C5046FBD5D71D4B0.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.02-08.15.22:647][ 99]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/SpawnerBlueprint.SpawnerBlueprint
+[2018.10.02-08.16.28:590][673]BlueprintLog: New page: Compile SpawnerBlueprint
+[2018.10.02-08.16.49:983][195]LogSlate: Took 0.078755 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.10.02-08.18.15:791][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Levels/Level1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.10.02-08.18.15:916][717]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Level1_Auto12C58DA1940CCBB0863BE48BF35A759C3.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Levels/Level1_Auto1.umap'
+[2018.10.02-08.18.15:932][717]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level1' took 0.193
+[2018.10.02-08.18.15:932][717]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.193
+[2018.10.02-08.18.15:939][717]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/SpawnerBlueprint] ([1] browsable assets)...
+[2018.10.02-08.18.15:939][717]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/SpawnerBlueprint]
+[2018.10.02-08.18.16:062][717]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/SpawnerBlueprint_Auto1C089105E49ACE4551FF619A376DB426D.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Blueprints/SpawnerBlueprint_Auto1.uasset'
+[2018.10.02-08.18.16:065][717]LogFileHelpers: Auto-saving content packages took 0.128
+[2018.10.02-08.20.13:887][908]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SpawnerBlueprint" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/SpawnerBlueprint.uasset" SILENT=true
+[2018.10.02-08.20.13:943][908]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/SpawnerBlueprint6147E85A45F1F61A1EBDA09E03BC04E0.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/SpawnerBlueprint.uasset'
+[2018.10.02-08.20.22:487][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SpawnerBlueprint" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/SpawnerBlueprint.uasset" SILENT=true
+[2018.10.02-08.20.22:541][141]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/SpawnerBlueprint719EA24848D55E36F1C507B9391F139A.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/SpawnerBlueprint.uasset'
+[2018.10.02-08.20.24:338][181]BlueprintLog: New page: Compile SpawnerBlueprint
+[2018.10.02-08.20.24:396][181]LogBlueprint: Warning: [Compiler SpawnerBlueprint] Could not find a variable named "y_buffer" in 'SpawnerBlueprint_C'.
+Make sure 'SpawnerBlueprint_C' has been compiled for  Get y_buffer
+[2018.10.02-08.20.24:396][181]LogBlueprint: Warning: [Compiler SpawnerBlueprint] Could not find a variable named "x_buffer" in 'SpawnerBlueprint_C'.
+Make sure 'SpawnerBlueprint_C' has been compiled for  Get x_buffer
+[2018.10.02-08.20.24:397][181]LogBlueprint: Warning: [Compiler SpawnerBlueprint] Could not find a variable named "y_buffer" in 'SpawnerBlueprint_C'.
+Make sure 'SpawnerBlueprint_C' has been compiled for  Get y_buffer
+[2018.10.02-08.20.24:397][181]LogBlueprint: Warning: [Compiler SpawnerBlueprint] Could not find a variable named "x_buffer" in 'SpawnerBlueprint_C'.
+Make sure 'SpawnerBlueprint_C' has been compiled for  Get x_buffer
+[2018.10.02-08.20.24:398][181]LogBlueprint: Error: [Compiler SpawnerBlueprint] The property associated with  X Buffer  could not be found in '/Game/Blueprints/SpawnerBlueprint.SpawnerBlueprint_C'
+[2018.10.02-08.20.24:398][181]LogBlueprint: Error: [Compiler SpawnerBlueprint] The property associated with  Y Buffer  could not be found in '/Game/Blueprints/SpawnerBlueprint.SpawnerBlueprint_C'
+[2018.10.02-08.20.24:399][181]LogBlueprint: Error: [Compiler SpawnerBlueprint] The property associated with  X Buffer  could not be found in '/Game/Blueprints/SpawnerBlueprint.SpawnerBlueprint_C'
+[2018.10.02-08.20.24:399][181]LogBlueprint: Error: [Compiler SpawnerBlueprint] The property associated with  Y Buffer  could not be found in '/Game/Blueprints/SpawnerBlueprint.SpawnerBlueprint_C'
+[2018.10.02-08.20.24:677][181]LogBlueprint: Warning: [Compiler SpawnerBlueprint] [1737.20] Compile of SpawnerBlueprint failed. 4 Fatal Issue(s) 4 Warning(s) [in 339 ms] (/Game/Blueprints/SpawnerBlueprint.SpawnerBlueprint)
+[2018.10.02-08.20.42:073][613]LogSlate: Window 'Change Variable Type' being destroyed
+[2018.10.02-08.20.42:083][613]LogClass: Warning: Type mismatch in x_buffer of SKEL_SpawnerBlueprint_C - Previous (StructProperty) Current(FloatProperty) for package:  FObjectReader
+[2018.10.02-08.20.43:710][645]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.10.02-08.20.43:761][645]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.10.02-08.20.58:148][955]BlueprintLog: New page: Compile SpawnerBlueprint
+[2018.10.02-08.20.58:370][955]BlueprintLog: New page: Compile SpawnerBlueprint
+[2018.10.02-08.21.02:265][ 31]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.21.02:299][ 31]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.21.02:299][ 31]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:21:02 PM)
+[2018.10.02-08.21.02:299][ 31]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.21.02:302][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003853s)
+[2018.10.02-08.21.02:304][ 31]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.21.02:304][ 31]LogPlayLevel: PIE: World Init took: (0.001359s)
+[2018.10.02-08.21.02:304][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.005413s)
+[2018.10.02-08.21.02:362][ 31]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.21.02:384][ 31]LogInit: FAudioDevice initialized.
+[2018.10.02-08.21.02:432][ 31]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.21.02:435][ 31]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.02-10.21.02
+[2018.10.02-08.21.02:435][ 31]LogWorld: Bringing up level for play took: 0.002030
+[2018.10.02-08.21.02:454][ 31]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.607
+[2018.10.02-08.21.15:623][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.21.15:887][249]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.21.16:269][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.21.16:522][250]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.10.02-08.21.17:971][275]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.21.31:110][479]BlueprintLog: New page: Compile SpawnerBlueprint
+[2018.10.02-08.21.34:641][554]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.21.34:681][555]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.21.34:723][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.21.34:724][555]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:21:34 PM)
+[2018.10.02-08.21.34:724][555]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.21.34:730][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006023s)
+[2018.10.02-08.21.34:732][555]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.21.34:734][555]LogPlayLevel: PIE: World Init took: (0.003398s)
+[2018.10.02-08.21.34:734][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.009971s)
+[2018.10.02-08.21.34:812][555]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.21.34:828][555]LogInit: FAudioDevice initialized.
+[2018.10.02-08.21.34:864][555]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.21.34:865][555]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.02-10.21.34
+[2018.10.02-08.21.34:865][555]LogWorld: Bringing up level for play took: 0.001125
+[2018.10.02-08.21.34:880][555]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1.033
+[2018.10.02-08.21.39:490][661]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.21.39:571][661]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.21.39:609][661]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.21.39:655][662]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.10.02-08.21.40:353][676]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.22.23:163][430]BlueprintLog: New page: Compile SpawnerBlueprint
+[2018.10.02-08.22.26:033][492]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.22.26:082][493]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.22.26:215][493]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.22.26:215][493]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:22:26 PM)
+[2018.10.02-08.22.26:215][493]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.22.26:219][493]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004104s)
+[2018.10.02-08.22.26:220][493]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.22.26:220][493]LogPlayLevel: PIE: World Init took: (0.001138s)
+[2018.10.02-08.22.26:220][493]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.005435s)
+[2018.10.02-08.22.26:270][493]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.22.26:285][493]LogInit: FAudioDevice initialized.
+[2018.10.02-08.22.26:322][493]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.22.26:324][493]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.02-10.22.26
+[2018.10.02-08.22.26:324][493]LogWorld: Bringing up level for play took: 0.001232
+[2018.10.02-08.22.26:338][493]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.49
+[2018.10.02-08.22.38:484][689]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.22.38:663][689]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.22.39:010][689]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.22.39:223][690]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.10.02-08.22.40:157][700]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.22.47:146][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SpawnerBlueprint" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/SpawnerBlueprint.uasset" SILENT=true
+[2018.10.02-08.22.48:010][798]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/SpawnerBlueprint8E7389A746CD423DE306949B1229D936.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/SpawnerBlueprint.uasset'
+[2018.10.02-08.23.04:007][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.02-08.23.04:160][ 73]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctionalA3D708B44A132F6EAFE55F8108137B41.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.02-08.23.05:272][100]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.23.05:310][101]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.02-08.26.29:900][981]BlueprintLog: New page: Compile SpawnerBlueprint
+[2018.10.02-08.26.38:588][115]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.26.38:698][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.02-08.26.38:980][115]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Level18678F28047D100CC3E3BE58384B287FF.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1.umap'
+[2018.10.02-08.26.39:016][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2018.10.02-08.26.39:039][115]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Level1_BuiltData9843C12D40740A6A5D928AADB9FFE82A.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1_BuiltData.uasset'
+[2018.10.02-08.26.41:352][162]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.26.52:109][324]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.26.52:261][324]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.26.52:261][324]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:26:52 PM)
+[2018.10.02-08.26.52:261][324]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.26.52:263][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002019s)
+[2018.10.02-08.26.52:263][324]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.26.52:263][324]LogPlayLevel: PIE: World Init took: (0.000890s)
+[2018.10.02-08.26.52:264][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003202s)
+[2018.10.02-08.26.52:317][324]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.26.52:333][324]LogInit: FAudioDevice initialized.
+[2018.10.02-08.26.52:367][324]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.26.52:369][324]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.02-10.26.52
+[2018.10.02-08.26.52:370][324]LogWorld: Bringing up level for play took: 0.001739
+[2018.10.02-08.26.52:388][324]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.541
+[2018.10.02-08.27.00:974][472]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.27.01:099][472]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.27.01:141][472]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.27.01:232][473]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2018.10.02-08.27.01:906][485]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.27.19:851][677]BlueprintLog: New page: Compile SpawnerBlueprint
+[2018.10.02-08.27.23:494][716]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.27.23:556][717]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.27.23:940][717]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.27.23:941][717]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:27:23 PM)
+[2018.10.02-08.27.23:941][717]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.27.23:967][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025226s)
+[2018.10.02-08.27.23:981][717]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.27.23:983][717]LogPlayLevel: PIE: World Init took: (0.015126s)
+[2018.10.02-08.27.23:984][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.042474s)
+[2018.10.02-08.27.24:521][717]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.27.24:723][717]LogInit: FAudioDevice initialized.
+[2018.10.02-08.27.24:829][717]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.27.24:838][717]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.02-10.27.24
+[2018.10.02-08.27.24:841][717]LogWorld: Bringing up level for play took: 0.007119
+[2018.10.02-08.27.24:868][717]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1.02
+[2018.10.02-08.27.44:681][107]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.27.44:776][107]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.27.44:814][107]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.27.44:869][108]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2018.10.02-08.27.45:743][124]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.27.51:606][229]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.27.56:066][283]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.02-08.27.57:230][298]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.27.57:284][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.02-08.27.57:369][298]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Level130AB7D7D40C7592B0407B798FF589FBD.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1.umap'
+[2018.10.02-08.27.57:447][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2018.10.02-08.27.57:466][298]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Level1_BuiltDataF8EBD4AB4905B2221A7240ADC090B342.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1_BuiltData.uasset'
+[2018.10.02-08.28.03:573][383]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.28.03:575][383]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.28.03:872][383]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.28.03:872][383]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:28:03 PM)
+[2018.10.02-08.28.03:873][383]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.28.03:906][383]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032502s)
+[2018.10.02-08.28.03:917][383]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.28.03:919][383]LogPlayLevel: PIE: World Init took: (0.010893s)
+[2018.10.02-08.28.03:920][383]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.046177s)
+[2018.10.02-08.28.04:409][383]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.28.04:651][383]LogInit: FAudioDevice initialized.
+[2018.10.02-08.28.04:746][383]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.28.04:757][383]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.02-10.28.04
+[2018.10.02-08.28.04:760][383]LogWorld: Bringing up level for play took: 0.007745
+[2018.10.02-08.28.04:787][383]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.939
+[2018.10.02-08.28.16:184][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.28.16:300][579]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.28.16:396][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.28.16:448][580]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2018.10.02-08.28.25:116][631]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.28.32:342][745]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.28.32:515][746]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/CaptainFuntionalBulletBlueprint.CaptainFuntionalBulletBlueprint
+[2018.10.02-08.28.51:632][945]BlueprintLog: New page: Compile CaptainFuntionalBulletBlueprint
+[2018.10.02-08.29.34:075][577]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.02-08.30.21:793][197]BlueprintLog: New page: Compile CaptainFuntionalBulletBlueprint
+[2018.10.02-08.30.26:632][244]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFuntionalBulletBlueprintF159BE794C08C2E94B7F0BAA5FA39609.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFuntionalBulletBlueprint.uasset'
+[2018.10.02-08.30.29:587][274]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFuntionalBulletBlueprint15BBFF2349BAFA08E9F08282E9859955.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFuntionalBulletBlueprint.uasset'
+[2018.10.02-08.30.36:105][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SpawnerBlueprint" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/SpawnerBlueprint.uasset" SILENT=true
+[2018.10.02-08.30.36:202][383]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/SpawnerBlueprint3DE8957D469AA8C32029488DCC408A8D.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/SpawnerBlueprint.uasset'
+[2018.10.02-08.30.39:033][444]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.30.39:059][444]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.30.39:059][444]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:30:39 PM)
+[2018.10.02-08.30.39:059][444]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.30.39:062][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002712s)
+[2018.10.02-08.30.39:063][444]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.30.39:063][444]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2018.10.02-08.30.39:063][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003681s)
+[2018.10.02-08.30.39:138][444]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.30.39:165][444]LogInit: FAudioDevice initialized.
+[2018.10.02-08.30.39:202][444]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.30.39:203][444]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.02-10.30.39
+[2018.10.02-08.30.39:204][444]LogWorld: Bringing up level for play took: 0.001479
+[2018.10.02-08.30.39:219][444]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.629
+[2018.10.02-08.31.04:218][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.31.04:469][780]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.31.04:871][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.31.05:201][781]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2018.10.02-08.31.07:770][816]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.31.08:099][817]LogSynthBenchmark: Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2018.10.02-08.31.08:099][817]LogSynthBenchmark: Display: ===============
+[2018.10.02-08.31.08:099][817]LogSynthBenchmark: Display: Main Processor:
+[2018.10.02-08.31.08:149][817]LogSynthBenchmark: Display:          ... 0.022888 s/Run 'RayIntersect'
+[2018.10.02-08.31.08:149][817]LogSynthBenchmark: Display:          ... 0.027004 s/Run 'Fractal'
+[2018.10.02-08.31.08:149][817]LogSynthBenchmark: Display: 
+[2018.10.02-08.31.08:149][817]LogSynthBenchmark: Display:   CompiledTarget_x_Bits: 64
+[2018.10.02-08.31.08:149][817]LogSynthBenchmark: Display:   UE_BUILD_SHIPPING: 0
+[2018.10.02-08.31.08:149][817]LogSynthBenchmark: Display:   UE_BUILD_TEST: 0
+[2018.10.02-08.31.08:149][817]LogSynthBenchmark: Display:   UE_BUILD_DEBUG: 0
+[2018.10.02-08.31.08:149][817]LogSynthBenchmark: Display:   TotalPhysicalGBRam: 16
+[2018.10.02-08.31.08:149][817]LogSynthBenchmark: Display:   NumberOfCores (physical): 2
+[2018.10.02-08.31.08:149][817]LogSynthBenchmark: Display:   NumberOfCores (logical): 4
+[2018.10.02-08.31.08:149][817]LogSynthBenchmark: Display:   CPU Perf Index 0: 111.9 (weight 1.00)
+[2018.10.02-08.31.08:149][817]LogSynthBenchmark: Display:   CPU Perf Index 1: 105.9 (weight 1.50)
+[2018.10.02-08.31.08:149][817]LogSynthBenchmark: Display:  
+[2018.10.02-08.31.08:149][817]LogSynthBenchmark: Display: Graphics:
+[2018.10.02-08.31.08:149][817]LogSynthBenchmark: Display:   Adapter Name: 'NVIDIA GeForce 940MX'
+[2018.10.02-08.31.08:149][817]LogSynthBenchmark: Display:   (On Optimus the name might be wrong, memory should be ok)
+[2018.10.02-08.31.08:149][817]LogSynthBenchmark: Display:   Vendor Id: 0x10DE
+[2018.10.02-08.31.08:149][817]LogSynthBenchmark: Display:   Device Id: 0x134D
+[2018.10.02-08.31.08:149][817]LogSynthBenchmark: Display:   Device Revision: 0xA2
+[2018.10.02-08.31.08:149][817]LogSynthBenchmark: Display:   GPU Memory: 4056/0/8135 MB
+[2018.10.02-08.31.08:463][817]LogSynthBenchmark: Display:   GPU first test: 0.03s
+[2018.10.02-08.31.08:463][817]LogSynthBenchmark: Display:          ... 0.447 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2018.10.02-08.31.08:463][817]LogSynthBenchmark: Display:          ... 0.478 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2018.10.02-08.31.08:464][817]LogSynthBenchmark: Display:          ... 0.369 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2018.10.02-08.31.08:464][817]LogSynthBenchmark: Display:          ... 1.734 s/GigaPix, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2018.10.02-08.31.08:464][817]LogSynthBenchmark: Display:          ... 0.079 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2018.10.02-08.31.08:464][817]LogSynthBenchmark: Display:          ... 0.469 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be very inaccurate)
+[2018.10.02-08.31.08:464][817]LogSynthBenchmark: Display:          ... 0.723 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:   GPU second test: 0.24s
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:          ... 0.670 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:          ... 0.574 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:          ... 0.545 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:          ... 2.750 s/GigaPix, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:          ... 0.084 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:          ... 0.295 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be inaccurate)
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:          ... 0.503 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:   GPU Final Results:
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:          ... 0.670 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:          ... 0.574 s/GigaPix, Confidence=100% 'TexHeavy'
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:          ... 0.545 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:          ... 2.750 s/GigaPix, Confidence=100% 'FillOnly'
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:          ... 0.084 s/GigaPix, Confidence=100% 'Bandwidth'
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:          ... 0.295 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:          ... 0.503 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display: 
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:   GPU Perf Index 0: 14.6 (weight 1.00)
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:   GPU Perf Index 1: 7.7 (weight 0.10)
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:   GPU Perf Index 2: 14.2 (weight 0.10)
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:   GPU Perf Index 3: 10.8 (weight 3.00)
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:   GPU Perf Index 4: 7.8 (weight 1.00)
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:   GPU Perf Index 5: 19.2 (weight 0.00)
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:   GPU Perf Index 6: 28.5 (weight 0.00)
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:   GPUIndex: 11.0
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:   CPUIndex: 108.3
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display: 
+[2018.10.02-08.31.08:969][817]LogSynthBenchmark: Display:          ... Total Time: 0.870011 sec
+[2018.10.02-08.31.09:532][817]LogContentStreaming: Texture pool size now 400 MB
+[2018.10.02-08.31.09:546][818]LogRenderer: Reallocating scene render targets to support 1208x712 Format 9 NumSamples 1 (Frame:25589).
+[2018.10.02-08.31.17:068][195]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.31.57:175][617]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFuntionalBulletBlueprintE800ECA548595A4910B693B397479EE9.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFuntionalBulletBlueprint.uasset'
+[2018.10.02-08.31.57:525][639]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.31.57:645][640]BlueprintLog: New page: Compile CaptainFuntionalBulletBlueprint
+[2018.10.02-08.32.02:845][899]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.32.02:904][904]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.32.02:935][904]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.32.02:935][904]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:32:02 PM)
+[2018.10.02-08.32.02:935][904]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.32.02:937][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002329s)
+[2018.10.02-08.32.02:938][904]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.32.02:939][904]LogPlayLevel: PIE: World Init took: (0.001263s)
+[2018.10.02-08.32.02:939][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003739s)
+[2018.10.02-08.32.02:992][904]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.32.03:009][904]LogInit: FAudioDevice initialized.
+[2018.10.02-08.32.03:043][904]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.32.03:045][904]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.02-10.32.03
+[2018.10.02-08.32.03:045][904]LogWorld: Bringing up level for play took: 0.001156
+[2018.10.02-08.32.03:059][904]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.789
+[2018.10.02-08.32.09:411][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.32.09:505][161]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.32.09:564][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.32.09:594][162]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2018.10.02-08.32.21:791][760]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.33.53:577][727]BlueprintLog: New page: Compile CaptainFuntionalBulletBlueprint
+[2018.10.02-08.33.56:372][821]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.33.56:375][821]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.33.56:674][821]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.33.56:675][821]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:33:56 PM)
+[2018.10.02-08.33.56:676][821]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.33.56:706][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029998s)
+[2018.10.02-08.33.56:719][821]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.33.56:721][821]LogPlayLevel: PIE: World Init took: (0.014448s)
+[2018.10.02-08.33.56:722][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.046866s)
+[2018.10.02-08.33.57:274][821]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.33.57:463][821]LogInit: FAudioDevice initialized.
+[2018.10.02-08.33.57:589][821]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.33.57:598][821]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.02-10.33.57
+[2018.10.02-08.33.57:600][821]LogWorld: Bringing up level for play took: 0.007132
+[2018.10.02-08.33.57:626][821]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1.778
+[2018.10.02-08.34.00:379][861]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_0] Hello
+[2018.10.02-08.34.00:392][862]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_1] Hello
+[2018.10.02-08.34.00:399][863]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_2] Hello
+[2018.10.02-08.34.00:411][864]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_3] Hello
+[2018.10.02-08.34.00:432][865]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_4] Hello
+[2018.10.02-08.34.00:459][866]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_5] Hello
+[2018.10.02-08.34.02:055][901]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_6] Hello
+[2018.10.02-08.34.02:116][902]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_7] Hello
+[2018.10.02-08.34.02:179][903]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_8] Hello
+[2018.10.02-08.34.02:239][904]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_9] Hello
+[2018.10.02-08.34.02:312][905]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_10] Hello
+[2018.10.02-08.34.02:380][906]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_11] Hello
+[2018.10.02-08.34.03:846][929]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_12] Hello
+[2018.10.02-08.34.06:651][979]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_13] Hello
+[2018.10.02-08.34.11:998][ 82]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.34.12:059][ 82]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.34.12:110][ 82]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.34.12:147][ 83]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2018.10.02-08.34.14:806][223]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.34.15:515][263]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFuntionalBulletBlueprintBA4E80544A38F17A2FC7E38FFA279DCF.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFuntionalBulletBlueprint.uasset'
+[2018.10.02-08.34.49:654][404]BlueprintLog: New page: Compile CaptainFuntionalBulletBlueprint
+[2018.10.02-08.35.01:518][ 69]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.35.01:596][ 69]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.35.01:596][ 69]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:35:01 PM)
+[2018.10.02-08.35.01:596][ 69]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.35.01:598][ 69]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002009s)
+[2018.10.02-08.35.01:599][ 69]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.35.01:599][ 69]LogPlayLevel: PIE: World Init took: (0.000948s)
+[2018.10.02-08.35.01:599][ 69]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003165s)
+[2018.10.02-08.35.01:655][ 69]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.35.01:673][ 69]LogInit: FAudioDevice initialized.
+[2018.10.02-08.35.01:711][ 69]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.35.01:713][ 69]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.02-10.35.01
+[2018.10.02-08.35.01:713][ 69]LogWorld: Bringing up level for play took: 0.001195
+[2018.10.02-08.35.01:727][ 69]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.12
+[2018.10.02-08.35.03:846][141]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_0] Hello
+[2018.10.02-08.35.03:888][142]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_1] Hello
+[2018.10.02-08.35.03:899][143]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_2] Hello
+[2018.10.02-08.35.06:228][229]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_3] Hello
+[2018.10.02-08.35.06:272][230]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_4] Hello
+[2018.10.02-08.35.10:946][326]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_5] Hello
+[2018.10.02-08.35.12:370][349]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_6] Hello
+[2018.10.02-08.35.12:445][350]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_7] Hello
+[2018.10.02-08.35.12:525][351]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_8] Hello
+[2018.10.02-08.35.12:971][365]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_9] Hello
+[2018.10.02-08.35.13:035][366]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_10] Hello
+[2018.10.02-08.35.13:101][367]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_11] Hello
+[2018.10.02-08.35.13:169][368]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_12] Hello
+[2018.10.02-08.35.13:232][369]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_13] Hello
+[2018.10.02-08.35.13:309][370]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_14] Hello
+[2018.10.02-08.35.13:380][371]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_15] Hello
+[2018.10.02-08.35.13:463][372]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_16] Hello
+[2018.10.02-08.35.13:551][373]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_17] Hello
+[2018.10.02-08.35.13:633][374]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_18] Hello
+[2018.10.02-08.35.13:723][375]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_19] Hello
+[2018.10.02-08.35.13:792][376]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_20] Hello
+[2018.10.02-08.35.13:873][377]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_21] Hello
+[2018.10.02-08.35.13:941][378]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_22] Hello
+[2018.10.02-08.35.14:024][379]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_23] Hello
+[2018.10.02-08.35.14:098][380]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_24] Hello
+[2018.10.02-08.35.14:167][381]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_25] Hello
+[2018.10.02-08.35.14:245][382]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_26] Hello
+[2018.10.02-08.35.14:314][383]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_27] Hello
+[2018.10.02-08.35.14:387][384]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_28] Hello
+[2018.10.02-08.35.14:466][385]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_29] Hello
+[2018.10.02-08.35.14:547][386]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_30] Hello
+[2018.10.02-08.35.14:637][387]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_31] Hello
+[2018.10.02-08.35.14:722][388]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_32] Hello
+[2018.10.02-08.35.14:785][389]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_33] Hello
+[2018.10.02-08.35.14:865][390]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_34] Hello
+[2018.10.02-08.35.14:934][391]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_35] Hello
+[2018.10.02-08.35.15:021][392]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_36] Hello
+[2018.10.02-08.35.15:111][393]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_37] Hello
+[2018.10.02-08.35.15:188][394]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_38] Hello
+[2018.10.02-08.35.15:284][395]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_39] Hello
+[2018.10.02-08.35.15:364][396]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_40] Hello
+[2018.10.02-08.35.15:436][397]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_41] Hello
+[2018.10.02-08.35.15:527][398]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_42] Hello
+[2018.10.02-08.35.15:619][399]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_43] Hello
+[2018.10.02-08.35.15:698][400]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_44] Hello
+[2018.10.02-08.35.15:778][401]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_45] Hello
+[2018.10.02-08.35.15:858][402]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_46] Hello
+[2018.10.02-08.35.15:935][403]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_47] Hello
+[2018.10.02-08.35.16:018][404]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_48] Hello
+[2018.10.02-08.35.16:104][405]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_49] Hello
+[2018.10.02-08.35.16:178][406]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_50] Hello
+[2018.10.02-08.35.16:265][407]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_51] Hello
+[2018.10.02-08.35.16:350][408]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_52] Hello
+[2018.10.02-08.35.16:427][409]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_53] Hello
+[2018.10.02-08.35.16:517][410]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_54] Hello
+[2018.10.02-08.35.16:610][411]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_55] Hello
+[2018.10.02-08.35.16:681][412]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_56] Hello
+[2018.10.02-08.35.16:767][413]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_57] Hello
+[2018.10.02-08.35.16:849][414]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_58] Hello
+[2018.10.02-08.35.16:927][415]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_59] Hello
+[2018.10.02-08.35.17:011][416]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_60] Hello
+[2018.10.02-08.35.17:094][417]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_61] Hello
+[2018.10.02-08.35.17:166][418]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_62] Hello
+[2018.10.02-08.35.17:247][419]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_63] Hello
+[2018.10.02-08.35.18:140][437]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_64] Hello
+[2018.10.02-08.35.18:162][438]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_65] Hello
+[2018.10.02-08.35.18:193][439]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_66] Hello
+[2018.10.02-08.35.19:293][477]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.35.19:359][477]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.35.19:428][477]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.35.19:457][478]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2018.10.02-08.35.20:083][499]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.36.28:796][999]BlueprintLog: New page: Compile CaptainFuntionalBulletBlueprint
+[2018.10.02-08.36.31:585][144]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.36.31:648][149]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.36.31:675][149]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.36.31:675][149]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:36:31 PM)
+[2018.10.02-08.36.31:675][149]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.36.31:677][149]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002496s)
+[2018.10.02-08.36.31:679][149]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.36.31:680][149]LogPlayLevel: PIE: World Init took: (0.002320s)
+[2018.10.02-08.36.31:680][149]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.005027s)
+[2018.10.02-08.36.31:729][149]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.36.31:749][149]LogInit: FAudioDevice initialized.
+[2018.10.02-08.36.31:783][149]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.36.31:784][149]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.02-10.36.31
+[2018.10.02-08.36.31:785][149]LogWorld: Bringing up level for play took: 0.001189
+[2018.10.02-08.36.31:799][149]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.049
+[2018.10.02-08.36.34:847][286]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_0] Hello
+[2018.10.02-08.36.34:847][286]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_0] Hello
+[2018.10.02-08.36.38:229][410]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_1] Hello
+[2018.10.02-08.36.38:231][410]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_1] Hello
+[2018.10.02-08.36.38:297][411]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_2] Hello
+[2018.10.02-08.36.38:298][411]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_2] Hello
+[2018.10.02-08.36.42:294][529]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_3] Hello
+[2018.10.02-08.36.42:294][529]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_3] Hello
+[2018.10.02-08.36.42:354][530]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_4] Hello
+[2018.10.02-08.36.42:354][530]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_4] Hello
+[2018.10.02-08.36.42:415][531]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_5] Hello
+[2018.10.02-08.36.42:416][531]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_5] Hello
+[2018.10.02-08.36.42:480][532]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_6] Hello
+[2018.10.02-08.36.42:480][532]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_6] Hello
+[2018.10.02-08.36.42:547][533]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_7] Hello
+[2018.10.02-08.36.42:547][533]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_7] Hello
+[2018.10.02-08.36.42:622][534]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_8] Hello
+[2018.10.02-08.36.42:624][534]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_8] Hello
+[2018.10.02-08.36.42:700][535]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_9] Hello
+[2018.10.02-08.36.42:700][535]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_9] Hello
+[2018.10.02-08.36.42:768][536]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_10] Hello
+[2018.10.02-08.36.42:768][536]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_10] Hello
+[2018.10.02-08.36.42:838][537]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_11] Hello
+[2018.10.02-08.36.42:838][537]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_11] Hello
+[2018.10.02-08.36.42:903][538]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_12] Hello
+[2018.10.02-08.36.42:904][538]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_12] Hello
+[2018.10.02-08.36.42:980][539]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_13] Hello
+[2018.10.02-08.36.42:981][539]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_13] Hello
+[2018.10.02-08.36.43:045][540]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_14] Hello
+[2018.10.02-08.36.43:045][540]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_14] Hello
+[2018.10.02-08.36.43:116][541]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_15] Hello
+[2018.10.02-08.36.43:116][541]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_15] Hello
+[2018.10.02-08.36.43:192][542]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_16] Hello
+[2018.10.02-08.36.43:193][542]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_16] Hello
+[2018.10.02-08.36.44:299][558]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_17] Hello
+[2018.10.02-08.36.44:300][558]LogBlueprintUserMessages: [CaptainFuntionalBulletBlueprint_C_17] Hello
+[2018.10.02-08.36.46:241][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.36.46:349][596]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.36.46:388][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.36.46:419][597]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2018.10.02-08.36.47:075][616]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.36.59:368][992]BlueprintLog: New page: Compile CaptainFuntionalBulletBlueprint
+[2018.10.02-08.37.00:480][ 17]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFuntionalBulletBlueprint2C7A9E7B4EE9A615F5BD4EBC0AD02B79.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFuntionalBulletBlueprint.uasset'
+[2018.10.02-08.37.07:416][373]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.37.13:342][668]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.37.14:038][699]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.37.14:064][699]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.37.14:064][699]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:37:14 PM)
+[2018.10.02-08.37.14:064][699]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.37.14:067][699]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002479s)
+[2018.10.02-08.37.14:068][699]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.37.14:069][699]LogPlayLevel: PIE: World Init took: (0.001662s)
+[2018.10.02-08.37.14:069][699]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.004358s)
+[2018.10.02-08.37.14:118][699]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.37.14:135][699]LogInit: FAudioDevice initialized.
+[2018.10.02-08.37.14:167][699]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.37.14:169][699]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.02-10.37.14
+[2018.10.02-08.37.14:169][699]LogWorld: Bringing up level for play took: 0.000822
+[2018.10.02-08.37.14:182][699]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.335
+[2018.10.02-08.37.26:179][974]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.37.26:331][974]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.37.26:742][974]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.37.26:944][975]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2018.10.02-08.37.28:183][992]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.38.36:011][964]BlueprintLog: New page: Compile CaptainFuntionalBulletBlueprint
+[2018.10.02-08.38.39:098][ 34]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.38.39:189][ 35]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.38.39:522][ 35]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.38.39:523][ 35]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:38:39 PM)
+[2018.10.02-08.38.39:524][ 35]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.38.39:551][ 35]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026574s)
+[2018.10.02-08.38.39:563][ 35]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.38.39:565][ 35]LogPlayLevel: PIE: World Init took: (0.013831s)
+[2018.10.02-08.38.39:566][ 35]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.042504s)
+[2018.10.02-08.38.40:135][ 35]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.38.40:342][ 35]LogInit: FAudioDevice initialized.
+[2018.10.02-08.38.40:427][ 35]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.38.40:434][ 35]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.02-10.38.40
+[2018.10.02-08.38.40:436][ 35]LogWorld: Bringing up level for play took: 0.005183
+[2018.10.02-08.38.40:461][ 35]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.612
+[2018.10.02-08.38.48:409][172]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.38.48:477][172]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.38.48:523][172]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.38.48:568][173]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2018.10.02-08.38.49:411][197]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.38.59:914][460]BlueprintLog: New page: Compile CaptainFuntionalBulletBlueprint
+[2018.10.02-08.39.04:033][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.39.04:099][618]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.39.04:401][618]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.39.04:403][618]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:39:04 PM)
+[2018.10.02-08.39.04:403][618]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.39.04:435][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030610s)
+[2018.10.02-08.39.04:446][618]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.39.04:449][618]LogPlayLevel: PIE: World Init took: (0.014173s)
+[2018.10.02-08.39.04:450][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.046242s)
+[2018.10.02-08.39.05:078][618]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.39.05:274][618]LogInit: FAudioDevice initialized.
+[2018.10.02-08.39.05:365][618]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.39.05:373][618]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.02-10.39.05
+[2018.10.02-08.39.05:375][618]LogWorld: Bringing up level for play took: 0.005002
+[2018.10.02-08.39.05:400][618]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1.552
+[2018.10.02-08.39.14:121][759]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.39.14:236][759]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.39.14:291][759]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.39.14:323][760]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2018.10.02-08.39.14:942][776]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.39.37:718][402]BlueprintLog: New page: Compile CaptainFuntionalBulletBlueprint
+[2018.10.02-08.39.40:885][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.39.40:951][502]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.39.41:181][502]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.39.41:182][502]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:39:41 PM)
+[2018.10.02-08.39.41:182][502]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.39.41:208][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024379s)
+[2018.10.02-08.39.41:226][502]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.39.41:227][502]LogPlayLevel: PIE: World Init took: (0.019473s)
+[2018.10.02-08.39.41:229][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.046040s)
+[2018.10.02-08.39.41:781][502]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.39.41:964][502]LogInit: FAudioDevice initialized.
+[2018.10.02-08.39.42:054][502]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.39.42:065][502]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.02-10.39.42
+[2018.10.02-08.39.42:067][502]LogWorld: Bringing up level for play took: 0.006768
+[2018.10.02-08.39.42:094][502]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.246
+[2018.10.02-08.39.52:895][782]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.39.52:965][782]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.39.53:043][782]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.39.53:072][783]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2018.10.02-08.39.53:694][805]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.40.35:766][ 28]BlueprintLog: New page: Compile CaptainFuntionalBulletBlueprint
+[2018.10.02-08.40.37:149][ 81]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFuntionalBulletBlueprintF328F8C6457B16876E0594ADD049FB0E.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFuntionalBulletBlueprint.uasset'
+[2018.10.02-08.40.41:911][267]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.40.43:169][327]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.40.43:252][332]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.40.43:278][332]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.40.43:278][332]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:40:43 PM)
+[2018.10.02-08.40.43:278][332]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.40.43:282][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003716s)
+[2018.10.02-08.40.43:283][332]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.40.43:284][332]LogPlayLevel: PIE: World Init took: (0.001342s)
+[2018.10.02-08.40.43:284][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.005304s)
+[2018.10.02-08.40.43:352][332]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.40.43:379][332]LogInit: FAudioDevice initialized.
+[2018.10.02-08.40.43:419][332]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.40.43:422][332]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.10.02-10.40.43
+[2018.10.02-08.40.43:423][332]LogWorld: Bringing up level for play took: 0.002462
+[2018.10.02-08.40.43:439][332]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.409
+[2018.10.02-08.40.53:957][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.40.54:109][537]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.40.54:480][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.40.54:679][538]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2018.10.02-08.40.55:685][548]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.43.32:482][158]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.02-08.43.48:135][452]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.02-08.43.55:841][560]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.43.55:892][561]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.43.56:000][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.43.56:000][561]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:43:56 PM)
+[2018.10.02-08.43.56:000][561]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.43.56:002][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002238s)
+[2018.10.02-08.43.56:004][561]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.43.56:004][561]LogPlayLevel: PIE: World Init took: (0.001757s)
+[2018.10.02-08.43.56:004][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.004160s)
+[2018.10.02-08.43.56:052][561]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.43.56:069][561]LogInit: FAudioDevice initialized.
+[2018.10.02-08.43.56:102][561]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.43.56:103][561]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.10.02-10.43.56
+[2018.10.02-08.43.56:103][561]LogWorld: Bringing up level for play took: 0.000772
+[2018.10.02-08.43.56:116][561]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.269
+[2018.10.02-08.44.05:314][701]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.44.05:485][701]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.44.05:848][701]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.44.06:043][702]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2018.10.02-08.44.06:966][709]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.44.35:863][212]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.02-08.44.42:603][337]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.44.42:728][339]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.02-08.44.43:209][339]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.02-08.44.43:210][339]PIE: New page: PIE session: Level1 (Oct 2, 2018, 12:44:43 PM)
+[2018.10.02-08.44.43:211][339]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.02-08.44.43:243][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031627s)
+[2018.10.02-08.44.43:257][339]LogAIModule: Creating AISystem for world Level1
+[2018.10.02-08.44.43:260][339]LogPlayLevel: PIE: World Init took: (0.014695s)
+[2018.10.02-08.44.43:260][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.048833s)
+[2018.10.02-08.44.43:843][339]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.02-08.44.44:134][339]LogInit: FAudioDevice initialized.
+[2018.10.02-08.44.44:226][339]LogLoad: Game class is 'GameModeBase'
+[2018.10.02-08.44.44:235][339]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.10.02-10.44.44
+[2018.10.02-08.44.44:238][339]LogWorld: Bringing up level for play took: 0.006247
+[2018.10.02-08.44.44:264][339]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.417
+[2018.10.02-08.45.42:001][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.45.42:171][501]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.02-08.45.42:540][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.02-08.45.42:760][502]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2018.10.02-08.46.15:471][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Levels/Level1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.10.02-08.46.15:559][738]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Level1_Auto283834FB04924A21B4AD83791F7A9B863.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Levels/Level1_Auto2.umap'
+[2018.10.02-08.46.15:566][738]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level1' took 0.162
+[2018.10.02-08.46.15:566][738]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.162
+[2018.10.02-08.46.15:571][738]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CaptainFunctional] ([1] browsable assets)...
+[2018.10.02-08.46.15:571][738]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CaptainFunctional]
+[2018.10.02-08.46.15:813][738]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctional_Auto2681F3A5942FA4FD9171051B09C57A5AE.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Blueprints/CaptainFunctional_Auto2.uasset'
+[2018.10.02-08.46.15:815][738]LogFileHelpers: Auto-saving content packages took 0.246
+[2018.10.02-08.52.59:453][924]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.10.02-08.53.16:649][956]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.53.53:407][574]BlueprintLog: New page: Compile SpawnerBlueprint
+[2018.10.02-08.54.05:428][830]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.02-08.54.05:445][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.02-08.54.05:529][830]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Level1176406A646BFE456FF0D64B8E94160BC.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1.umap'
+[2018.10.02-08.54.05:564][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2018.10.02-08.54.05:585][830]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Level1_BuiltData014682C34C1BE11F0DDED88278DCF946.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1_BuiltData.uasset'
+[2018.10.02-08.54.06:638][878]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.54.10:243][943]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SpawnerBlueprint" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/SpawnerBlueprint.uasset" SILENT=true
+[2018.10.02-08.54.11:300][943]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/SpawnerBlueprintB02675834D87048A2D7648848264EE04.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/SpawnerBlueprint.uasset'
+[2018.10.02-08.54.12:207][970]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.54.12:948][980]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.02-08.54.13:083][980]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctionalFA39BCE34BF321779BD2BA854C8FE30D.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.02-08.54.15:616][ 86]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.56.14:385][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.02-08.56.14:577][647]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Level1282D843D4D0C1411E702BC8AED3397BB.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1.umap'
+[2018.10.02-08.56.14:610][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2018.10.02-08.56.14:629][647]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Level1_BuiltData95B5102643A88E2898AF709002F3AD79.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1_BuiltData.uasset'
+[2018.10.02-08.56.26:673][765]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.57.17:845][184]LogSlate: Window 'CaptainFuntionalBulletBlueprint' being destroyed
+[2018.10.02-08.57.17:907][184]LogSlate: Window 'CaptainFuntionalBulletBlueprint' being destroyed
+[2018.10.02-08.57.19:081][184]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.02-08.57.20:085][184]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.02-08.57.20:666][184]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.02-08.57.20:869][184]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.57.27:204][413]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.02-08.57.28:394][415]LogSlate: Window 'CaptFunctionalUnreal - Unreal Editor' being destroyed
+[2018.10.02-08.57.28:401][415]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.02-08.57.29:936][416]Cmd: QUIT_EDITOR
+[2018.10.02-08.57.31:618][416]LogExit: Preparing to exit.
