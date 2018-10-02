@@ -1,0 +1,1450 @@
+﻿Log file open, 10/01/18 10:18:19
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: CaptFunctionalUnreal
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.437056
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.358s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz, GPU: Intel(R) HD Graphics 620
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: -EpicPortal 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.01-08.18.20:416][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.01-08.18.20:416][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.01-08.18.20:461][  0]LogHAL: Display: Platform has ~ 16 GB [17059516416 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.01-08.18.20:461][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.01-08.18.20:461][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.01-08.18.20:462][  0]LogInit: Computer: DESKTOP-TGENN00
+[2018.10.01-08.18.20:462][  0]LogInit: User: FrederikPalmelund
+[2018.10.01-08.18.20:462][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.10.01-08.18.20:462][  0]LogInit: High frequency timer resolution =2.835939 MHz
+[2018.10.01-08.18.20:463][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.10.01-08.18.20:463][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.01-08.18.20:463][  0]LogMemory: Process Physical Memory: 99.48 MB used, 99.48 MB peak
+[2018.10.01-08.18.20:463][  0]LogMemory: Process Virtual Memory: 90.94 MB used, 90.94 MB peak
+[2018.10.01-08.18.20:464][  0]LogMemory: Physical Memory: 5279.21 MB used,  10990.01 MB free, 16269.22 MB total
+[2018.10.01-08.18.20:464][  0]LogMemory: Virtual Memory: 4622.79 MB used,  10990.01 MB free, 134217728.00 MB total
+[2018.10.01-08.18.20:548][  0]LogInit: Using OS detected language (en-GB).
+[2018.10.01-08.18.20:548][  0]LogInit: Using OS detected locale (en-DK).
+[2018.10.01-08.18.20:554][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.10.01-08.18.21:421][  0]LogStreaming: Display: Took  0.873s to InitEngineTextLocalization.
+[2018.10.01-08.18.21:421][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.01-08.18.21:526][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.01-08.18.21:526][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.01-08.18.21:898][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.01-08.18.21:898][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.01-08.18.21:972][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940MX' (Feature Level 11_0)
+[2018.10.01-08.18.21:972][  0]LogD3D11RHI:       4055/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.10.01-08.18.21:995][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.10.01-08.18.21:995][  0]LogD3D11RHI:       128/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.10.01-08.18.22:000][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.01-08.18.22:000][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.01-08.18.22:000][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.01-08.18.22:059][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.01-08.18.22:059][  0]LogD3D11RHI:     GPU DeviceId: 0x134d (for the marketing name, search the web for "GPU Device Id")
+[2018.10.01-08.18.22:059][  0]LogWindows: EnumDisplayDevices:
+[2018.10.01-08.18.22:059][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.10.01-08.18.22:060][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:1)
+[2018.10.01-08.18.22:061][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.10.01-08.18.22:061][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.10.01-08.18.22:061][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940MX
+[2018.10.01-08.18.22:061][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.10.01-08.18.22:062][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.10.01-08.18.22:062][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2018.10.01-08.18.22:116][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.01-08.18.22:136][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.01-08.18.22:137][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (../../../../../../Development/CaptFunctionalUnreal/Intermediate/Shaders/WorkingDirectory/11532/).
+[2018.10.01-08.18.22:138][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Frederik Palmelund/AppData/Local/Temp/UnrealShaderWorkingDir/A39F804342BC94C909077AACD0824259/'.
+[2018.10.01-08.18.23:039][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.01-08.18.23:076][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.01-08.18.23:128][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.01-08.18.23:164][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.01-08.18.23:199][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.01-08.18.23:233][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.01-08.18.23:266][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.01-08.18.23:301][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.01-08.18.23:317][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.01-08.18.23:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.01-08.18.23:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.01-08.18.23:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.01-08.18.23:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.01-08.18.23:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.01-08.18.23:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.01-08.18.23:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.01-08.18.23:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.01-08.18.23:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.01-08.18.23:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.01-08.18.23:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.01-08.18.23:456][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.01-08.18.23:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.01-08.18.23:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.01-08.18.23:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.01-08.18.23:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.01-08.18.23:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.01-08.18.23:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.01-08.18.23:459][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.01-08.18.23:547][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.01-08.18.23:547][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.01-08.18.23:613][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.01-08.18.23:613][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.01-08.18.23:638][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.01-08.18.23:657][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.01-08.18.23:687][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.01-08.18.23:717][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.01-08.18.23:737][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.01-08.18.23:737][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.01-08.18.23:857][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.01-08.18.23:857][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.01-08.18.23:857][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.01-08.18.24:777][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.01-08.18.24:840][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Frederik Palmelund/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.01-08.18.24:840][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Frederik Palmelund/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.01-08.18.24:840][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Development/CaptFunctionalUnreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.01-08.18.24:840][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.01-08.18.24:840][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Development/CaptFunctionalUnreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.01-08.18.24:840][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.01-08.18.24:855][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.01-08.18.24:867][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Frederik Palmelund/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.01-08.18.24:867][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.01-08.18.24:868][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.01-08.18.24:889][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.01-08.18.24:891][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.01-08.18.24:892][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.01-08.18.24:978][  0]LogAssetRegistry: FAssetRegistry took 0.0272 seconds to start up
+[2018.10.01-08.18.25:440][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.01-08.18.25:634][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.01-08.18.25:641][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.01-08.18.25:641][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.01-08.18.25:641][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.01-08.18.25:641][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.01-08.18.25:672][  0]LogNetVersion: CaptFunctionalUnreal 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1158027450)
+[2018.10.01-08.18.26:405][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.128131 seconds
+[2018.10.01-08.18.26:413][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.01-08.18.26:413][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.10.01-08.18.26:413][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.01-08.18.27:312][  0]LogWmfMedia: Failed to load mf.dll
+[2018.10.01-08.18.27:312][  0]LogWmfMedia: Failed to load required Windows Media Foundation libraries
+[2018.10.01-08.18.27:314][  0]LogWindowsMoviePlayer: Could not load mf.dll. Library not found.
+[2018.10.01-08.18.27:315][  0]LogWindowsMoviePlayer: Could not load mfplat.dll. Library not found.
+[2018.10.01-08.18.27:316][  0]LogWindowsMoviePlayer: Could not load mfplay.dll. Library not found.
+[2018.10.01-08.18.27:635][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.01-08.18.27:670][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.01-08.18.28:124][  0]SourceControl: Source control is disabled
+[2018.10.01-08.18.28:124][  0]SourceControl: Source control is disabled
+[2018.10.01-08.18.28:126][  0]SourceControl: Source control is disabled
+[2018.10.01-08.18.28:127][  0]SourceControl: Source control is disabled
+[2018.10.01-08.18.28:386][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.01-08.18.28:692][  0]LogOcInput: OculusInput pre-init called
+[2018.10.01-08.18.28:773][  0]LogEngine: Initializing Engine...
+[2018.10.01-08.18.28:774][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.01-08.18.28:777][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.01-08.18.28:777][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.01-08.18.28:777][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.01-08.18.28:777][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.01-08.18.29:058][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.01-08.18.29:091][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.01-08.18.29:120][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.01-08.18.29:954][  0]LogInit: FAudioDevice initialized.
+[2018.10.01-08.18.29:954][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.01-08.18.30:066][  0]LogDerivedDataCache: Saved boot cache 0.11s 71MB C:/Users/Frederik Palmelund/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.01-08.18.30:076][  0]LogInit: Texture streaming: Enabled
+[2018.10.01-08.18.30:153][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.01-08.18.30:153][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={6DB91E24-4828-244A-96A9-6DBDC536D8CE}
+[2018.10.01-08.18.30:230][  0]LogInit: Transaction tracking system initialized
+[2018.10.01-08.18.30:330][  0]BlueprintLog: New page: Editor Load
+[2018.10.01-08.18.30:660][  0]LocalizationService: Localization service is disabled
+[2018.10.01-08.18.31:174][  0]LogFileCache: Scanning file cache for directory 'C:/Development/CaptFunctionalUnreal/Content/' took 0.01s
+[2018.10.01-08.18.31:174][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.01-08.18.31:174][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.01-08.18.31:174][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.01-08.18.31:174][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.01-08.18.31:174][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.01-08.18.31:175][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.01-08.18.31:175][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.01-08.18.31:430][  0]SourceControl: Source control is disabled
+[2018.10.01-08.18.31:430][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.01-08.18.31:431][  0]LightingResults: New page: Lighting Build
+[2018.10.01-08.18.31:437][  0]MapCheck: New page: Map Check
+[2018.10.01-08.18.31:437][  0]LightingResults: New page: Lighting Build
+[2018.10.01-08.18.31:717][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.10.01-08.18.31:727][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.01-08.18.31:762][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.01-08.18.31:856][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 93.876ms to complete.
+[2018.10.01-08.18.31:856][  0]LogFileHelpers: Loading map 'Template_Default' took 0.426
+[2018.10.01-08.18.32:039][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-08.18.32:054][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-08.18.32:066][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-08.18.32:075][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-08.18.32:087][  0]LogCollectionManager: Loaded 0 collections in 0.003931 seconds
+[2018.10.01-08.18.32:156][  0]LogFileCache: Scanning file cache for directory 'C:/Development/CaptFunctionalUnreal/Saved/Collections/' took 0.01s
+[2018.10.01-08.18.32:156][  0]LogFileCache: Scanning file cache for directory 'C:/Development/CaptFunctionalUnreal/Content/Developers/FrederikPalmelund/Collections/' took 0.01s
+[2018.10.01-08.18.32:156][  0]LogFileCache: Scanning file cache for directory 'C:/Development/CaptFunctionalUnreal/Content/Collections/' took 0.01s
+[2018.10.01-08.18.32:156][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.10.01-08.18.32:183][  0]LogContentBrowser: Native class hierarchy populated in 0.0268 seconds. Added 2572 classes and 603 folders.
+[2018.10.01-08.18.32:207][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.10.01-08.18.32:218][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.01-08.18.32:235][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.10.01-08.18.32:406][  0]LogSlate: Took 0.000486 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.01-08.18.32:417][  0]LogSlate: Took 0.000934 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.01-08.18.32:433][  0]LogSlate: Took 0.000312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.01-08.18.32:557][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.10.01-08.18.32:900][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2018.10.01-08.18.32:900][  0]LogLoad: (Engine Initialization) Total time: 16.02 seconds
+[2018.10.01-08.18.32:900][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.01-08.18.32:932][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.01-08.18.33:044][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.01-08.18.49:939][291]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.01-08.19.12:378][642]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.01-08.19.44:901][944]LogAssetRegistry: Asset discovery search completed in 79.9453 seconds
+[2018.10.01-08.19.44:905][944]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.01-08.19.44:905][944]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000103 seconds (updated 0 objects)
+[2018.10.01-08.19.48:429][964]LogSlate: Took 0.003878 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.01-08.19.48:501][964]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Development\p9examples\captain-functional-resources\500px-React-icon.svg.png)
+[2018.10.01-08.19.48:530][964]LogTexture: Display: Building textures: 500px-React-icon_svg (BGRA8, 500X353)
+[2018.10.01-08.19.48:571][964]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Development\p9examples\captain-functional-resources\Angular_full_color_logo.svg.png)
+[2018.10.01-08.19.48:578][964]LogTexture: Display: Building textures: Angular_full_color_logo_svg (AutoDXT, 500X500)
+[2018.10.01-08.19.48:806][964]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Development\p9examples\captain-functional-resources\class.png)
+[2018.10.01-08.19.48:814][964]LogTexture: Display: Building textures: class (BGRA8, 500X250)
+[2018.10.01-08.19.48:835][964]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Development\p9examples\captain-functional-resources\cpp_logo.png)
+[2018.10.01-08.19.48:867][964]LogTexture: Display: Building textures: cpp_logo (BGRA8, 918X1032)
+[2018.10.01-08.19.48:964][964]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Development\p9examples\captain-functional-resources\CsharpIcon.png)
+[2018.10.01-08.19.48:979][964]LogTexture: Display: Building textures: CsharpIcon (AutoDXT, 800X800)
+[2018.10.01-08.19.49:485][964]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Development\p9examples\captain-functional-resources\Javascript-736400_960_720.png)
+[2018.10.01-08.19.49:550][964]LogTexture: Display: Building textures: Javascript-736400_960_720 (AutoDXT, 720X720)
+[2018.10.01-08.19.49:626][964]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Development\p9examples\captain-functional-resources\rust_icon_01.png)
+[2018.10.01-08.19.49:869][964]LogTexture: Display: Building textures: rust_icon_01 (AutoDXT, 3000X3000)
+[2018.10.01-08.19.58:307][964]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Development\p9examples\captain-functional-resources\rust_icon_02.png)
+[2018.10.01-08.19.58:550][964]LogTexture: Display: Building textures: rust_icon_02 (AutoDXT, 3000X3000)
+[2018.10.01-08.20.07:619][964]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Development\p9examples\captain-functional-resources\rust_icon_03.png)
+[2018.10.01-08.20.07:867][964]LogTexture: Display: Building textures: rust_icon_03 (AutoDXT, 3000X3000)
+[2018.10.01-08.20.16:110][964]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Development\p9examples\captain-functional-resources\rust_icon_04.png)
+[2018.10.01-08.20.16:322][964]LogTexture: Display: Building textures: rust_icon_04 (AutoDXT, 3000X3000)
+[2018.10.01-08.20.25:132][964]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Development\p9examples\captain-functional-resources\Vue.js_Logo.svg.png)
+[2018.10.01-08.20.25:140][964]LogTexture: Display: Building textures: Vue_js_Logo_svg (AutoDXT, 500X500)
+[2018.10.01-08.20.25:375][964]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Development\p9examples\captain-functional-resources\).png)
+[2018.10.01-08.20.25:400][964]LogTexture: Display: Building textures: _ (AutoDXT, 200X300)
+[2018.10.01-08.20.25:502][964]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Development\p9examples\captain-functional-resources\500px-Faenza-openjdk-6.svg.png)
+[2018.10.01-08.20.25:553][964]LogTexture: Display: Building textures: 500px-Faenza-openjdk-6_svg (AutoDXT, 500X500)
+[2018.10.01-08.22.11:127][847]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/500px-Faenza-openjdk-6_svg_Sprit69321C88420CDFE81942469B792C9F4D.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Sprites/500px-Faenza-openjdk-6_svg_Sprite.uasset'
+[2018.10.01-08.22.11:183][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/500px-React-icon_svg_Sprite" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Sprites/500px-React-icon_svg_Sprite.uasset" SILENT=true
+[2018.10.01-08.22.11:228][847]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/500px-React-icon_svg_Sprite8BC5842B41B65235E25899BA2C89F3AD.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Sprites/500px-React-icon_svg_Sprite.uasset'
+[2018.10.01-08.22.11:281][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/__Sprite" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Sprites/__Sprite.uasset" SILENT=true
+[2018.10.01-08.22.11:339][847]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/__SpriteFA019A09419F9D715534DE9661C792D1.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Sprites/__Sprite.uasset'
+[2018.10.01-08.22.11:435][847]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Angular_full_color_logo_svg_Spri52A40BBD4D20FB65F601B7BE12AB677F.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Sprites/Angular_full_color_logo_svg_Sprite.uasset'
+[2018.10.01-08.22.11:464][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/class_Sprite" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Sprites/class_Sprite.uasset" SILENT=true
+[2018.10.01-08.22.11:477][847]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/class_SpriteB4B2FE2D44ABAC6D960657BC5468B5B1.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Sprites/class_Sprite.uasset'
+[2018.10.01-08.22.11:493][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/cpp_logo_Sprite" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Sprites/cpp_logo_Sprite.uasset" SILENT=true
+[2018.10.01-08.22.11:508][847]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/cpp_logo_Sprite81C546BF4351515E9501AF944EE2E258.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Sprites/cpp_logo_Sprite.uasset'
+[2018.10.01-08.22.11:523][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/CsharpIcon_Sprite" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Sprites/CsharpIcon_Sprite.uasset" SILENT=true
+[2018.10.01-08.22.11:539][847]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CsharpIcon_SpriteC9ABEDC4475CBC4C3982D7B3505C6818.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Sprites/CsharpIcon_Sprite.uasset'
+[2018.10.01-08.22.11:567][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Javascript-736400_960_720_Sprite" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Sprites/Javascript-736400_960_720_Sprite.uasset" SILENT=true
+[2018.10.01-08.22.11:592][847]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Javascript-736400_960_720_Sprite8427D5D34109E5D4F7B98683128FC867.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Sprites/Javascript-736400_960_720_Sprite.uasset'
+[2018.10.01-08.22.11:621][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/rust_icon_01_Sprite" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Sprites/rust_icon_01_Sprite.uasset" SILENT=true
+[2018.10.01-08.22.11:656][847]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/rust_icon_01_SpriteC9BAA1114720D7C6DEB0EDBA67D58EF9.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Sprites/rust_icon_01_Sprite.uasset'
+[2018.10.01-08.22.11:687][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/rust_icon_02_Sprite" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Sprites/rust_icon_02_Sprite.uasset" SILENT=true
+[2018.10.01-08.22.11:722][847]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/rust_icon_02_SpriteFB94CEE948F9BBBDB20C12B253B5CF9E.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Sprites/rust_icon_02_Sprite.uasset'
+[2018.10.01-08.22.11:753][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/rust_icon_03_Sprite" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Sprites/rust_icon_03_Sprite.uasset" SILENT=true
+[2018.10.01-08.22.11:787][847]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/rust_icon_03_Sprite020910B24F4423404571B7A14B38F105.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Sprites/rust_icon_03_Sprite.uasset'
+[2018.10.01-08.22.11:815][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/rust_icon_04_Sprite" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Sprites/rust_icon_04_Sprite.uasset" SILENT=true
+[2018.10.01-08.22.11:850][847]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/rust_icon_04_SpriteE65EAF89458837E04739A7ACF93B070C.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Sprites/rust_icon_04_Sprite.uasset'
+[2018.10.01-08.22.11:880][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Vue_js_Logo_svg_Sprite" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Sprites/Vue_js_Logo_svg_Sprite.uasset" SILENT=true
+[2018.10.01-08.22.11:904][847]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Vue_js_Logo_svg_Sprite312A32F9492755B905CE03A3C246DE48.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Sprites/Vue_js_Logo_svg_Sprite.uasset'
+[2018.10.01-08.22.33:397][188]Cmd: SELECT NONE
+[2018.10.01-08.30.01:241][852]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.10.01-08.30.20:454][193]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.10.01-08.30.23:560][338]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.019
+[2018.10.01-08.30.23:569][338]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/500px-React-icon_svg] ([1] browsable assets)...
+[2018.10.01-08.30.23:575][338]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/500px-React-icon_svg.500px-React-icon_svg]
+[2018.10.01-08.30.23:575][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/500px-React-icon_svg]
+[2018.10.01-08.30.23:585][338]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/500px-React-icon_svg_Auto1A4C8C5A24BC72E1C478E25975CB2481F.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Textures/500px-React-icon_svg_Auto1.uasset'
+[2018.10.01-08.30.23:586][338]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Angular_full_color_logo_svg] ([1] browsable assets)...
+[2018.10.01-08.30.23:593][338]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Angular_full_color_logo_svg.Angular_full_color_logo_svg]
+[2018.10.01-08.30.23:593][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Angular_full_color_logo_svg]
+[2018.10.01-08.30.23:604][338]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Angular_full_color_logo_svg_Auto7887750E471286C7753C2EA353538F7F.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Textures/Angular_full_color_logo_svg_Auto1.uasset'
+[2018.10.01-08.30.23:605][338]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/class] ([1] browsable assets)...
+[2018.10.01-08.30.23:608][338]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/class.class]
+[2018.10.01-08.30.23:608][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/class]
+[2018.10.01-08.30.23:608][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/class" FILE="../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Textures/class_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.10.01-08.30.23:616][338]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/class_Auto1CFB0051449866B0CCB379F8BA50E2926.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Textures/class_Auto1.uasset'
+[2018.10.01-08.30.23:619][338]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/cpp_logo] ([1] browsable assets)...
+[2018.10.01-08.30.23:626][338]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/cpp_logo.cpp_logo]
+[2018.10.01-08.30.23:626][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/cpp_logo]
+[2018.10.01-08.30.23:626][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/cpp_logo" FILE="../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Textures/cpp_logo_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.10.01-08.30.23:638][338]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/cpp_logo_Auto1A7FB37C547FA5FEC9F83A581D9FFECF1.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Textures/cpp_logo_Auto1.uasset'
+[2018.10.01-08.30.23:639][338]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/CsharpIcon] ([1] browsable assets)...
+[2018.10.01-08.30.23:646][338]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/CsharpIcon.CsharpIcon]
+[2018.10.01-08.30.23:646][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/CsharpIcon]
+[2018.10.01-08.30.23:646][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/CsharpIcon" FILE="../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Textures/CsharpIcon_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.10.01-08.30.23:657][338]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CsharpIcon_Auto1BCAB96F945DECBD52DA65280DEC8FE21.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Textures/CsharpIcon_Auto1.uasset'
+[2018.10.01-08.30.23:659][338]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Javascript-736400_960_720] ([1] browsable assets)...
+[2018.10.01-08.30.23:666][338]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Javascript-736400_960_720.Javascript-736400_960_720]
+[2018.10.01-08.30.23:666][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Javascript-736400_960_720]
+[2018.10.01-08.30.23:677][338]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Javascript-736400_960_720_Auto121DB0EB24BA0643FBA24D7AFB1A952DD.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Textures/Javascript-736400_960_720_Auto1.uasset'
+[2018.10.01-08.30.23:678][338]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/rust_icon_01] ([1] browsable assets)...
+[2018.10.01-08.30.23:686][338]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/rust_icon_01.rust_icon_01]
+[2018.10.01-08.30.23:687][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/rust_icon_01]
+[2018.10.01-08.30.23:687][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/rust_icon_01" FILE="../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Textures/rust_icon_01_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.10.01-08.30.23:781][338]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/rust_icon_01_Auto1444955ED465DAEE6819BC095C6432D00.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Textures/rust_icon_01_Auto1.uasset'
+[2018.10.01-08.30.23:782][338]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/rust_icon_02] ([1] browsable assets)...
+[2018.10.01-08.30.23:790][338]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/rust_icon_02.rust_icon_02]
+[2018.10.01-08.30.23:790][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/rust_icon_02]
+[2018.10.01-08.30.23:790][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/rust_icon_02" FILE="../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Textures/rust_icon_02_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.10.01-08.30.23:878][338]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/rust_icon_02_Auto10E6D2A7547C38095D4465F9C27B81285.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Textures/rust_icon_02_Auto1.uasset'
+[2018.10.01-08.30.23:879][338]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/rust_icon_03] ([1] browsable assets)...
+[2018.10.01-08.30.23:887][338]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/rust_icon_03.rust_icon_03]
+[2018.10.01-08.30.23:887][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/rust_icon_03]
+[2018.10.01-08.30.23:887][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/rust_icon_03" FILE="../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Textures/rust_icon_03_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.10.01-08.30.23:995][338]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/rust_icon_03_Auto13B0CE28E44ED9476069FD58A61A8E635.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Textures/rust_icon_03_Auto1.uasset'
+[2018.10.01-08.30.23:996][338]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/rust_icon_04] ([1] browsable assets)...
+[2018.10.01-08.30.24:004][338]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/rust_icon_04.rust_icon_04]
+[2018.10.01-08.30.24:004][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/rust_icon_04]
+[2018.10.01-08.30.24:004][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/rust_icon_04" FILE="../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Textures/rust_icon_04_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.10.01-08.30.24:158][338]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/rust_icon_04_Auto18147E0E84CDD61301FEB69A29D073523.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Textures/rust_icon_04_Auto1.uasset'
+[2018.10.01-08.30.24:159][338]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Vue_js_Logo_svg] ([1] browsable assets)...
+[2018.10.01-08.30.24:166][338]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Vue_js_Logo_svg.Vue_js_Logo_svg]
+[2018.10.01-08.30.24:166][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Vue_js_Logo_svg]
+[2018.10.01-08.30.24:177][338]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Vue_js_Logo_svg_Auto1460D961A49D557D47F2903B758EB2416.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Textures/Vue_js_Logo_svg_Auto1.uasset'
+[2018.10.01-08.30.24:178][338]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/_] ([1] browsable assets)...
+[2018.10.01-08.30.24:182][338]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/_._]
+[2018.10.01-08.30.24:182][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/_]
+[2018.10.01-08.30.24:183][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/_" FILE="../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Textures/__Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.10.01-08.30.24:191][338]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/__Auto10D293EDD48AD14EEA96BBA96D36F3FE1.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Textures/__Auto1.uasset'
+[2018.10.01-08.30.24:193][338]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/500px-Faenza-openjdk-6_svg] ([1] browsable assets)...
+[2018.10.01-08.30.24:199][338]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/500px-Faenza-openjdk-6_svg.500px-Faenza-openjdk-6_svg]
+[2018.10.01-08.30.24:199][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/500px-Faenza-openjdk-6_svg]
+[2018.10.01-08.30.24:210][338]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/500px-Faenza-openjdk-6_svg_Auto150026B214F193715A40D9A84599FC5DF.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Textures/500px-Faenza-openjdk-6_svg_Auto1.uasset'
+[2018.10.01-08.30.24:212][338]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/NewBlueprint] ([1] browsable assets)...
+[2018.10.01-08.30.24:212][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/NewBlueprint]
+[2018.10.01-08.30.24:227][338]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/NewBlueprint_Auto166395CD04736ED268F338B9DEF1932E3.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Blueprints/NewBlueprint_Auto1.uasset'
+[2018.10.01-08.30.24:228][338]LogFileHelpers: Auto-saving content packages took 0.668
+[2018.10.01-08.30.30:139][617]LogMetaData: Removing '/Game/Blueprints/CaptainFunctional.CaptainFunctional:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2018.10.01-08.30.30:139][617]LogMetaData: Removing '/Game/Blueprints/CaptainFunctional.SKEL_CaptainFunctional_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2018.10.01-08.30.30:139][617]LogMetaData: Removing '/Game/Blueprints/CaptainFunctional.CaptainFunctional_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2018.10.01-08.30.30:139][617]LogMetaData: Removing '/Game/Blueprints/CaptainFunctional.CaptainFunctional:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2018.10.01-08.30.30:139][617]LogMetaData: Removing '/Game/Blueprints/CaptainFunctional.CaptainFunctional:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2018.10.01-08.30.30:139][617]LogMetaData: Removing '/Game/Blueprints/CaptainFunctional.CaptainFunctional:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2018.10.01-08.30.30:167][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.01-08.30.30:180][617]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctional23891D6644C1043B458DCE919FBF23D0.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.01-08.30.32:874][737]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/CaptainFunctional.CaptainFunctional
+[2018.10.01-08.30.33:370][737]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.10.01-08.30.36:648][818]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.01-08.31.25:054][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.01-08.31.25:077][ 10]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctional8C01CE444619FA951DB1DDAA83441550.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.01-08.31.27:169][ 98]LogSlate: Window 'CaptainFunctional' being destroyed
+[2018.10.01-08.31.27:178][ 98]LogSlate: Window 'CaptainFunctional' being destroyed
+[2018.10.01-08.31.35:664][486]LogEditorActor: Deleted Actor: PlayerStart
+[2018.10.01-08.31.35:694][486]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2018.10.01-08.31.38:049][599]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.01-08.31.38:076][599]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2018.10.01-08.31.51:154][730]LogSlate: Window 'Save Level As' being destroyed
+[2018.10.01-08.31.51:295][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.01-08.31.51:346][730]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Level11E4CF0204DFCC010C07C489693296ED9.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1.umap'
+[2018.10.01-08.31.51:368][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2018.10.01-08.31.51:388][730]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Level1_BuiltDataA03BEEDF498872BC942755B150E6D779.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1_BuiltData.uasset'
+[2018.10.01-08.31.51:395][730]LogFileHelpers: Saving map 'Level1' took 0.219
+[2018.10.01-08.32.07:846][511]Cmd: SELECT NONE
+[2018.10.01-08.32.10:523][643]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.01-08.32.10:704][650]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/CaptainFunctional.CaptainFunctional
+[2018.10.01-08.32.11:020][650]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.01-08.32.28:627][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.01-08.32.28:647][472]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctional33A848A947B3582ADCB60CA7C373B596.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.01-08.32.34:343][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.01-08.32.34:361][711]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctional6555CD134DADE3A91EB298B433B23C05.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.01-08.32.53:477][516]LogSlate: Window 'CaptainFunctional' being destroyed
+[2018.10.01-08.32.53:508][516]LogSlate: Window 'CaptainFunctional' being destroyed
+[2018.10.01-08.32.54:812][578]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.01-08.32.54:832][578]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.10.01-08.32.54:833][578]LogPlayLevel: [PlayLevel] Compiling CaptainFunctional before play...
+[2018.10.01-08.32.54:950][578]LogPlayLevel: PlayLevel: Blueprint regeneration took 117 ms (1 blueprints)
+[2018.10.01-08.32.54:962][578]PIE: New page: PIE session: Level1 (Oct 1, 2018, 12:32:54 PM)
+[2018.10.01-08.32.54:962][578]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.01-08.32.54:963][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001573s)
+[2018.10.01-08.32.54:964][578]LogAIModule: Creating AISystem for world Level1
+[2018.10.01-08.32.54:964][578]LogPlayLevel: PIE: World Init took: (0.001065s)
+[2018.10.01-08.32.54:965][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.002871s)
+[2018.10.01-08.32.54:998][578]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.01-08.32.55:012][578]LogInit: FAudioDevice initialized.
+[2018.10.01-08.32.55:054][578]LogLoad: Game class is 'GameModeBase'
+[2018.10.01-08.32.55:055][578]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.01-10.32.55
+[2018.10.01-08.32.55:071][578]LogWorld: Bringing up level for play took: 0.016037
+[2018.10.01-08.32.55:091][578]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.10.01-08.32.55:092][578]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.054
+[2018.10.01-08.32.57:497][728]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-08.32.57:544][728]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.01-08.32.57:571][728]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-08.32.57:596][729]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.10.01-08.33.00:669][838]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.01-08.33.00:867][846]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/CaptainFunctional.CaptainFunctional
+[2018.10.01-08.33.10:204][245]LogSlate: Window 'CaptainFunctional' being destroyed
+[2018.10.01-08.33.10:228][245]LogSlate: Window 'CaptainFunctional' being destroyed
+[2018.10.01-08.33.27:117][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.01-08.33.39:515][533]LogEditorViewport: Clicking on Actor (LMB): CaptainFunctional_C (CaptainFunctional)
+[2018.10.01-08.33.41:127][609]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.01-08.33.44:912][773]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2018.10.01-08.33.50:636][ 26]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.01-08.33.58:252][376]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.01-08.33.59:539][431]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.01-08.33.59:555][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.01-08.33.59:612][431]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Level14DC44BEB4B88CD55F0EE33B16650D83E.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1.umap'
+[2018.10.01-08.33.59:633][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2018.10.01-08.33.59:663][431]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Level1_BuiltData1A8F76CC466819AE0739618B1A285FBB.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1_BuiltData.uasset'
+[2018.10.01-08.34.02:963][563]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.01-08.34.03:047][566]MapCheck: New page: Map Check
+[2018.10.01-08.34.03:098][566]Cmd: MAP REBUILD ALLVISIBLE
+[2018.10.01-08.34.03:098][566]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.10.01-08.34.03:218][566]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2018.10.01-08.34.03:226][566]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.10.01-08.34.03:231][566]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy TranslucentUnlitSpriteMaterial, compiling. 
+[2018.10.01-08.34.03:885][566]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.01-08.34.03:885][566]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.01-08.34.03:885][566]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.01-08.34.03:885][566]TextureStreamingBuild: Display: Compiling optional shaders took 0.671 seconds.
+[2018.10.01-08.34.03:889][566]LogLevel: Display: Export Material TexCoord Scales took 0.003 seconds.
+[2018.10.01-08.34.03:895][566]TextureStreamingBuild: Display: Build Texture Streaming took 0.006 seconds.
+[2018.10.01-08.34.03:921][566]LightingResults: New page: Lighting Build - Oct 1, 2018, 12:34:03 PM
+[2018.10.01-08.34.03:956][566]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.10.01-08.34.04:005][566]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.10.01-08.34.04:018][566]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.10.01-08.34.04:525][566]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.10.01-08.34.04:525][566]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11532
+[2018.10.01-08.34.08:983][566]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.10.01-08.34.08:983][566]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.10.01-08.34.08:983][566]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.10.01-08.34.08:983][566]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.10.01-08.34.08:983][566]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.10.01-08.34.08:983][566]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.10.01-08.34.09:159][566]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.10.01-08.34.09:159][566]MapCheck: New page: Level1 - Oct 1, 2018, 12:34:09 PM
+[2018.10.01-08.34.09:239][566]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 80.042ms to complete.
+[2018.10.01-08.34.09:262][566]LogEditorBuildUtils: Build time 0:06
+[2018.10.01-08.34.11:134][619]Job is a success!
+[2018.10.01-08.34.11:240][620]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.009s
+[2018.10.01-08.34.11:240][620]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.10.01-08.34.11:240][620]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2018.10.01-08.34.11:240][620]LogVolumetricLightmapImport:      Bricks at Level
+[2018.10.01-08.34.11:240][620]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2018.10.01-08.34.11:240][620]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2018.10.01-08.34.11:240][620]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2018.10.01-08.34.11:262][620]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 64X64)
+[2018.10.01-08.34.11:262][620]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 64X64)
+[2018.10.01-08.34.11:262][620]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 32X32)
+[2018.10.01-08.34.11:291][620]Lightmass on DESKTOP-TGENN00: 1.12 sec total, 170 ms importing, 27 ms setup, 159 ms photons, 506 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 1.98 sec total, 155 ms processing.
+[2018.10.01-08.34.11:332][620]LogStaticLightingSystem: Illumination: 7.36 sec (7 ms encoding lightmaps, 7 ms encoding shadowmaps)
+[2018.10.01-08.34.11:333][620]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.10.01-08.34.11:333][620]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2018.10.01-08.34.11:984][620]DumpUnbuiltLightIteractions
+[2018.10.01-08.34.11:984][620]Lights with unbuilt interactions: 0
+[2018.10.01-08.34.11:984][620]
+[2018.10.01-08.34.11:984][620]Primitives with unbuilt interactions: 0
+[2018.10.01-08.34.12:111][621]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.10.01-08.34.12:111][621]MapCheck: New page: Level1 - Oct 1, 2018, 12:34:12 PM
+[2018.10.01-08.34.12:194][621]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.417ms to complete.
+[2018.10.01-08.34.13:083][663]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.01-08.34.13:102][663]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.01-08.34.13:102][663]PIE: New page: PIE session: Level1 (Oct 1, 2018, 12:34:13 PM)
+[2018.10.01-08.34.13:102][663]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.01-08.34.13:106][663]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003474s)
+[2018.10.01-08.34.13:107][663]LogAIModule: Creating AISystem for world Level1
+[2018.10.01-08.34.13:107][663]LogPlayLevel: PIE: World Init took: (0.001421s)
+[2018.10.01-08.34.13:107][663]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.005158s)
+[2018.10.01-08.34.13:142][663]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.01-08.34.13:155][663]LogInit: FAudioDevice initialized.
+[2018.10.01-08.34.13:192][663]LogLoad: Game class is 'GameModeBase'
+[2018.10.01-08.34.13:192][663]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.01-10.34.13
+[2018.10.01-08.34.13:193][663]LogWorld: Bringing up level for play took: 0.000792
+[2018.10.01-08.34.13:205][663]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.167
+[2018.10.01-08.34.19:209][ 43]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-08.34.19:254][ 43]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.01-08.34.19:281][ 43]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-08.34.19:314][ 45]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.10.01-08.34.21:241][139]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2018.10.01-08.34.23:849][263]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.01-08.34.34:590][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.01-08.34.34:643][763]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Level1CF0808FE433E87144DCBEC9E4D6925AE.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1.umap'
+[2018.10.01-08.34.34:664][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2018.10.01-08.34.34:673][763]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Level1_BuiltData025AAFEE490C5A6E53385386433A81EA.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1_BuiltData.uasset'
+[2018.10.01-08.34.36:529][846]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.01-08.34.36:537][846]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.01-08.34.36:537][846]PIE: New page: PIE session: Level1 (Oct 1, 2018, 12:34:36 PM)
+[2018.10.01-08.34.36:537][846]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.01-08.34.36:539][846]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001948s)
+[2018.10.01-08.34.36:539][846]LogAIModule: Creating AISystem for world Level1
+[2018.10.01-08.34.36:539][846]LogPlayLevel: PIE: World Init took: (0.000567s)
+[2018.10.01-08.34.36:540][846]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.002661s)
+[2018.10.01-08.34.36:609][846]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.01-08.34.36:622][846]LogInit: FAudioDevice initialized.
+[2018.10.01-08.34.36:652][846]LogLoad: Game class is 'GameModeBase'
+[2018.10.01-08.34.36:652][846]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.10.01-10.34.36
+[2018.10.01-08.34.36:652][846]LogWorld: Bringing up level for play took: 0.000578
+[2018.10.01-08.34.36:666][846]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.372
+[2018.10.01-08.34.39:468][999]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-08.34.39:515][999]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.01-08.34.39:542][999]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-08.34.39:568][  0]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.10.01-08.34.41:573][100]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.01-08.34.41:793][107]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/CaptainFunctional.CaptainFunctional
+[2018.10.01-08.35.29:186][430]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.10.01-08.35.29:264][431]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CaptFunctionalUnreal
+[2018.10.01-08.35.29:264][431]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.01-08.35.29:264][431]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.10.01-08.35.29:264][431]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.01-08.35.29:264][431]LogTemp: BranchPath = DESKTOP-TGENN00/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-TGENN00/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.10.01-08.35.29:291][432]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Frederik Palmelund\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.10.01-08.36.47:375][439]LogSlate: Window 'Project Settings' being destroyed
+[2018.10.01-08.36.47:397][439]LogSlate: Window 'Project Settings' being destroyed
+[2018.10.01-08.45.26:688][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Levels/Level1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.10.01-08.45.26:718][933]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Level1_Auto2B5AC829F4E8831FFD5432C9BA285177C.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Levels/Level1_Auto2.umap'
+[2018.10.01-08.45.26:721][933]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level1' took 0.066
+[2018.10.01-08.45.26:721][933]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.066
+[2018.10.01-08.45.26:723][933]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CaptainFunctional] ([1] browsable assets)...
+[2018.10.01-08.45.26:723][933]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CaptainFunctional]
+[2018.10.01-08.45.26:746][933]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctional_Auto251E5DE5247865295552134879D80B064.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Blueprints/CaptainFunctional_Auto2.uasset'
+[2018.10.01-08.45.26:747][933]LogFileHelpers: Auto-saving content packages took 0.025
+[2018.10.01-08.48.18:794][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.01-08.48.18:820][470]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctional3BBF9CBA4011BBB56DE2259EE1DD6911.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.01-08.52.32:153][701]LogSlate: Took 0.008179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.10.01-08.53.58:657][932]LogSelectionDetails: Warning: NavigateToFunctionSource:  Found symbols for [UKismetMathLibrary::MakeVector] - File [d:\build\++ue4\sync\engine\source\runtime\engine\classes\kismet\kismetmathlibrary.inl], Line [1680], Column [0]
+[2018.10.01-08.54.04:462][174]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.10.01-08.54.04:469][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:469][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:469][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:469][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:470][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:470][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:470][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:470][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:470][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:470][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:471][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:471][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:471][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:471][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:471][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:472][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:472][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:472][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:472][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:472][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:472][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:473][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:473][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:473][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:473][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:473][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:473][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:473][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:474][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:474][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:474][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:474][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:474][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:475][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:475][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:475][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:475][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:475][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:475][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:476][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:476][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:476][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:476][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:476][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:477][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:477][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:477][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:477][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:477][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:477][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:477][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:477][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:478][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:478][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:478][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:478][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:478][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:478][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:478][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:478][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:479][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:479][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:479][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:479][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:479][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:479][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:479][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:479][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:479][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:480][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:480][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:480][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:480][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:480][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:481][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:481][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:481][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:481][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:481][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:481][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:482][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:482][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:482][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:482][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:482][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:482][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:482][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:483][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:483][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:483][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:483][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:483][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:483][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:483][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:483][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:483][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:484][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:484][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:484][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:485][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:488][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:488][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:489][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:495][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:518][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:518][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:519][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:519][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:519][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:520][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:520][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:520][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:559][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:560][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:560][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:560][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:560][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:561][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:562][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:562][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:567][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.54.04:618][174]LogVSAccessor: Warning: Couldn't access module table
+[2018.10.01-08.55.15:454][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.01-08.55.15:487][100]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctional3207820740A258E3D14195B0B54B9889.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.01-08.55.18:267][239]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.01-08.55.24:664][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.01-08.55.24:700][555]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctionalE34A905F4DD08CF262E4CEA091AB47C4.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.01-08.55.32:820][972]MapCheck: New page: Map Check
+[2018.10.01-08.55.32:863][972]Cmd: MAP REBUILD ALLVISIBLE
+[2018.10.01-08.55.32:864][972]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.10.01-08.55.32:973][972]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2018.10.01-08.55.32:979][972]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.10.01-08.55.32:985][972]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.01-08.55.32:985][972]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.01-08.55.32:985][972]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy TranslucentUnlitSpriteMaterial, compiling. 
+[2018.10.01-08.55.33:660][972]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.01-08.55.33:661][972]TextureStreamingBuild: Display: Compiling optional shaders took 0.690 seconds.
+[2018.10.01-08.55.33:664][972]LogLevel: Display: Export Material TexCoord Scales took 0.003 seconds.
+[2018.10.01-08.55.33:674][972]TextureStreamingBuild: Display: Build Texture Streaming took 0.009 seconds.
+[2018.10.01-08.55.33:699][972]LightingResults: New page: Lighting Build - Oct 1, 2018, 12:55:33 PM
+[2018.10.01-08.55.33:707][972]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.10.01-08.55.33:709][972]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.10.01-08.55.33:709][972]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.10.01-08.55.33:709][972]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.10.01-08.55.33:710][972]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11532
+[2018.10.01-08.55.39:679][972]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.10.01-08.55.39:679][972]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.10.01-08.55.39:679][972]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.10.01-08.55.39:679][972]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.10.01-08.55.39:679][972]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.10.01-08.55.39:679][972]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.10.01-08.55.39:811][972]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.10.01-08.55.39:811][972]MapCheck: New page: Level1 - Oct 1, 2018, 12:55:39 PM
+[2018.10.01-08.55.39:888][972]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 77.224ms to complete.
+[2018.10.01-08.55.39:912][972]LogEditorBuildUtils: Build time 0:07
+[2018.10.01-08.55.41:348][ 23]Job is a success!
+[2018.10.01-08.55.41:443][ 24]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.008s
+[2018.10.01-08.55.41:443][ 24]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.10.01-08.55.41:443][ 24]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2018.10.01-08.55.41:443][ 24]LogVolumetricLightmapImport:      Bricks at Level
+[2018.10.01-08.55.41:443][ 24]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2018.10.01-08.55.41:443][ 24]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2018.10.01-08.55.41:443][ 24]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2018.10.01-08.55.41:468][ 24]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 64X64)
+[2018.10.01-08.55.41:468][ 24]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 64X64)
+[2018.10.01-08.55.41:469][ 24]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.10.01-08.55.41:512][ 24]Lightmass on DESKTOP-TGENN00: 784 ms total, 160 ms importing, 28 ms setup, 163 ms photons, 398 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 1.55 sec total, 103 ms processing.
+[2018.10.01-08.55.41:520][ 24]LogStaticLightingSystem: Illumination: 7.78 sec (7 ms encoding lightmaps, 9 ms encoding shadowmaps)
+[2018.10.01-08.55.41:520][ 24]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.10.01-08.55.41:520][ 24]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2018.10.01-08.55.41:681][ 24]DumpUnbuiltLightIteractions
+[2018.10.01-08.55.41:681][ 24]Lights with unbuilt interactions: 0
+[2018.10.01-08.55.41:681][ 24]
+[2018.10.01-08.55.41:681][ 24]Primitives with unbuilt interactions: 0
+[2018.10.01-08.55.41:796][ 25]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.10.01-08.55.41:797][ 25]MapCheck: New page: Level1 - Oct 1, 2018, 12:55:41 PM
+[2018.10.01-08.55.41:877][ 25]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 80.613ms to complete.
+[2018.10.01-08.55.44:832][180]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.01-08.55.44:858][180]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.10.01-08.55.44:868][180]LogPlayLevel: [PlayLevel] Compiling CaptainFunctional before play...
+[2018.10.01-08.55.45:018][180]LogPlayLevel: PlayLevel: Blueprint regeneration took 159 ms (1 blueprints)
+[2018.10.01-08.55.45:018][180]PIE: New page: PIE session: Level1 (Oct 1, 2018, 12:55:45 PM)
+[2018.10.01-08.55.45:018][180]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.01-08.55.45:020][180]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001952s)
+[2018.10.01-08.55.45:021][180]LogAIModule: Creating AISystem for world Level1
+[2018.10.01-08.55.45:022][180]LogPlayLevel: PIE: World Init took: (0.001402s)
+[2018.10.01-08.55.45:022][180]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003556s)
+[2018.10.01-08.55.45:058][180]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.01-08.55.45:073][180]LogInit: FAudioDevice initialized.
+[2018.10.01-08.55.45:104][180]LogLoad: Game class is 'GameModeBase'
+[2018.10.01-08.55.45:105][180]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.10.01-10.55.45
+[2018.10.01-08.55.45:105][180]LogWorld: Bringing up level for play took: 0.000631
+[2018.10.01-08.55.45:118][180]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.079
+[2018.10.01-08.55.58:805][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-08.55.58:850][979]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.01-08.55.58:879][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-08.55.58:908][980]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.10.01-08.56.05:877][307]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.01-08.56.14:690][707]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2018.10.01-08.56.24:440][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.01-08.56.24:472][ 41]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctionalDF77BB50430BB39B01BCF6ADB196B2B0.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.01-08.56.26:549][116]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.01-08.56.30:017][248]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.01-08.56.30:033][248]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.01-08.56.30:034][248]PIE: New page: PIE session: Level1 (Oct 1, 2018, 12:56:30 PM)
+[2018.10.01-08.56.30:034][248]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.01-08.56.30:037][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003753s)
+[2018.10.01-08.56.30:038][248]LogAIModule: Creating AISystem for world Level1
+[2018.10.01-08.56.30:038][248]LogPlayLevel: PIE: World Init took: (0.000884s)
+[2018.10.01-08.56.30:039][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.004856s)
+[2018.10.01-08.56.30:078][248]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.01-08.56.30:091][248]LogInit: FAudioDevice initialized.
+[2018.10.01-08.56.30:125][248]LogLoad: Game class is 'GameModeBase'
+[2018.10.01-08.56.30:126][248]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.10.01-10.56.30
+[2018.10.01-08.56.30:128][248]LogWorld: Bringing up level for play took: 0.002828
+[2018.10.01-08.56.30:142][248]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1.104
+[2018.10.01-08.56.41:732][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-08.56.41:783][921]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.01-08.56.41:811][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-08.56.41:840][922]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.10.01-08.56.43:039][983]LogEditorViewport: Clicking on Actor (LMB): CaptainFunctional_C (CaptainFunctional)
+[2018.10.01-08.56.49:379][302]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.01-08.57.14:983][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Levels/Level1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.10.01-08.57.15:014][565]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Level1_Auto3473CA4A74EF47CBABE44E3BBB0C4B7A0.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Levels/Level1_Auto3.umap'
+[2018.10.01-08.57.15:017][565]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level1' took 0.062
+[2018.10.01-08.57.15:017][565]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.062
+[2018.10.01-08.57.15:020][565]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Levels/Level1_BuiltData] ([1] browsable assets)...
+[2018.10.01-08.57.15:020][565]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/Level1_BuiltData]
+[2018.10.01-08.57.15:034][565]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Level1_BuiltData_Auto3730DD7FF4995268D02F7B2A9C494495C.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Levels/Level1_BuiltData_Auto3.uasset'
+[2018.10.01-08.57.15:042][565]LogFileHelpers: Auto-saving content packages took 0.023
+[2018.10.01-08.58.51:568][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.01-08.58.51:600][248]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctional3FA3AA4949AABFD6A46EA6A5BD488482.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.01-08.59.23:429][840]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.01-08.59.24:330][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.01-08.59.24:364][872]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctional4A8806C441FE3C3750DA18B843684430.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.01-08.59.31:496][169]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.01-08.59.31:516][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.01-08.59.31:516][169]PIE: New page: PIE session: Level1 (Oct 1, 2018, 12:59:31 PM)
+[2018.10.01-08.59.31:517][169]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.01-08.59.31:519][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002697s)
+[2018.10.01-08.59.31:521][169]LogAIModule: Creating AISystem for world Level1
+[2018.10.01-08.59.31:522][169]LogPlayLevel: PIE: World Init took: (0.002314s)
+[2018.10.01-08.59.31:522][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.005181s)
+[2018.10.01-08.59.31:560][169]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.01-08.59.31:573][169]LogInit: FAudioDevice initialized.
+[2018.10.01-08.59.31:604][169]LogLoad: Game class is 'GameModeBase'
+[2018.10.01-08.59.31:605][169]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.10.01-10.59.31
+[2018.10.01-08.59.31:605][169]LogWorld: Bringing up level for play took: 0.000810
+[2018.10.01-08.59.31:617][169]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.579
+[2018.10.01-08.59.40:239][674]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.01-09.00.11:446][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-09.00.11:493][503]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.01-09.00.11:519][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-09.00.11:549][504]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.10.01-09.00.13:890][613]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.01-09.00.39:095][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.10.01-09.00.39:149][825]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Level156183967482F31447C638F991A1B7657.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1.umap'
+[2018.10.01-09.00.39:179][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2018.10.01-09.00.39:188][825]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Level1_BuiltData323EE7924A2ADE337F9FEC8E803B9FFF.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Levels/Level1_BuiltData.uasset'
+[2018.10.01-09.00.40:297][882]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.01-09.00.40:311][882]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.01-09.00.40:311][882]PIE: New page: PIE session: Level1 (Oct 1, 2018, 1:00:40 PM)
+[2018.10.01-09.00.40:311][882]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.01-09.00.40:313][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001694s)
+[2018.10.01-09.00.40:314][882]LogAIModule: Creating AISystem for world Level1
+[2018.10.01-09.00.40:314][882]LogPlayLevel: PIE: World Init took: (0.000611s)
+[2018.10.01-09.00.40:314][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.002419s)
+[2018.10.01-09.00.40:350][882]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.01-09.00.40:365][882]LogInit: FAudioDevice initialized.
+[2018.10.01-09.00.40:395][882]LogLoad: Game class is 'GameModeBase'
+[2018.10.01-09.00.40:395][882]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.10.01-11.00.40
+[2018.10.01-09.00.40:396][882]LogWorld: Bringing up level for play took: 0.000543
+[2018.10.01-09.00.40:409][882]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.63
+[2018.10.01-09.00.41:161][925]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.41:171][926]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.41:187][927]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.41:204][928]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.41:221][929]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.41:237][930]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.41:253][931]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.41:271][932]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.41:287][933]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.41:454][943]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.41:471][944]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.41:487][945]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.41:504][946]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.41:520][947]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.41:537][948]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.41:553][949]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.41:570][950]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.41:587][951]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.41:604][952]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:454][  3]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:470][  4]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:487][  5]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:504][  6]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:521][  7]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:536][  8]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:554][  9]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:570][ 10]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:587][ 11]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:604][ 12]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:621][ 13]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:637][ 14]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:653][ 15]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:671][ 16]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:687][ 17]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:704][ 18]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:721][ 19]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:737][ 20]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:754][ 21]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:771][ 22]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:787][ 23]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:803][ 24]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:820][ 25]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:837][ 26]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:854][ 27]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:870][ 28]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:887][ 29]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:904][ 30]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.42:920][ 31]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:087][ 41]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:103][ 42]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:120][ 43]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:137][ 44]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:153][ 45]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:170][ 46]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:187][ 47]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:204][ 48]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:221][ 49]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:237][ 50]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:254][ 51]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:270][ 52]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:287][ 53]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:304][ 54]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:321][ 55]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:337][ 56]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:354][ 57]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:370][ 58]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:387][ 59]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:403][ 60]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:421][ 61]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:437][ 62]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:454][ 63]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:471][ 64]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.43:487][ 65]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.45:368][172]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.45:385][173]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.45:404][174]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.45:421][175]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.45:440][176]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.45:460][177]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.45:480][178]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.45:496][179]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.45:512][180]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.45:530][181]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.45:548][182]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.45:565][183]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.45:582][184]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.45:600][185]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.45:617][186]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.45:636][187]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.45:654][188]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.45:673][189]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.45:689][190]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.45:706][191]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.45:724][192]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.45:741][193]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.45:758][194]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.46:761][251]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.46:779][252]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.46:796][253]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.46:814][254]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.46:831][255]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.46:849][256]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.46:866][257]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.46:884][258]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.46:901][259]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.46:918][260]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.46:937][261]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.46:955][262]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.46:972][263]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.46:991][264]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:008][265]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:025][266]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:042][267]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:059][268]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:077][269]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:094][270]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:112][271]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:130][272]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:147][273]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:164][274]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:181][275]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:199][276]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:216][277]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:234][278]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:251][279]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:269][280]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:286][281]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:305][282]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:323][283]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:340][284]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:357][285]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:375][286]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:392][287]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:410][288]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:426][289]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:443][290]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:460][291]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:478][292]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:495][293]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:512][294]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:530][295]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:547][296]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:564][297]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:582][298]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:599][299]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:616][300]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:633][301]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:651][302]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:668][303]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:686][304]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:703][305]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:722][306]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:739][307]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:756][308]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:774][309]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:791][310]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:808][311]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:826][312]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:843][313]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:860][314]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:878][315]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:895][316]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:912][317]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:930][318]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:948][319]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:966][320]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:982][321]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.47:999][322]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:017][323]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:035][324]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:052][325]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:070][326]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:088][327]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:107][328]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:124][329]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:140][330]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:158][331]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:175][332]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:193][333]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:210][334]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:227][335]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:245][336]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:262][337]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:280][338]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:631][358]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:648][359]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:666][360]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:684][361]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:701][362]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:824][369]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:843][370]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:861][371]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:878][372]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:896][373]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.48:913][374]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.49:018][380]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.49:036][381]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.49:053][382]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.49:071][383]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.49:088][384]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.49:105][385]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.49:123][386]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.49:687][418]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.49:704][419]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.49:721][420]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.49:739][421]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.49:757][422]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.49:774][423]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.49:791][424]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.49:809][425]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.49:826][426]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.49:844][427]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.49:861][428]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.49:880][429]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.50:339][455]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.50:357][456]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.50:374][457]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.50:391][458]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.50:409][459]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.50:427][460]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.50:447][461]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.50:463][462]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.50:480][463]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.50:497][464]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:000][549]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:019][550]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:036][551]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:054][552]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:071][553]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:089][554]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:106][555]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:124][556]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:141][557]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:159][558]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:177][559]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:194][560]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:212][561]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:229][562]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:247][563]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:263][564]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:281][565]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:299][566]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:318][567]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:336][568]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:353][569]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:370][570]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:388][571]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:405][572]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:423][573]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:443][574]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:461][575]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:478][576]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:496][577]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:513][578]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:531][579]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:548][580]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:566][581]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:583][582]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:601][583]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:620][584]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:640][585]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:658][586]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:676][587]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:693][588]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:711][589]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:728][590]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:746][591]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:763][592]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:781][593]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:798][594]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:815][595]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:833][596]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:853][597]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:870][598]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:888][599]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:908][600]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:928][601]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:944][602]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:961][603]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:979][604]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.52:997][605]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:014][606]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:032][607]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:049][608]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:067][609]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:084][610]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:102][611]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:119][612]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:137][613]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:154][614]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:171][615]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:188][616]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:205][617]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:224][618]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:246][619]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:266][620]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:282][621]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:298][622]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:315][623]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:333][624]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:351][625]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:369][626]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:386][627]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:404][628]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:421][629]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:439][630]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:456][631]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:473][632]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:491][633]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:509][634]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:527][635]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:545][636]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:562][637]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:580][638]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:598][639]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:615][640]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:633][641]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:650][642]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:667][643]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:685][644]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:703][645]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:719][646]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:737][647]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:754][648]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:772][649]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:790][650]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:807][651]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.53:825][652]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.54:001][662]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.54:018][663]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.54:036][664]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.54:053][665]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.54:070][666]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.54:175][672]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.54:193][673]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.54:211][674]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.54:229][675]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.54:339][681]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.54:356][682]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.54:374][683]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.54:392][684]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.54:409][685]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.54:428][686]PIE: Warning: CaptainFunctional_2.PaperSprite rust_icon_02_Sprite has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2018.10.01-09.00.54:875][711]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-09.00.54:926][711]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.01-09.00.54:953][711]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-09.00.54:990][712]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.10.01-09.01.00:988][796]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.01-09.04.28:167][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.01-09.04.28:207][858]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctional3249ACF04F4421DFDBB916B72AD0C5D7.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.01-09.04.35:661][203]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.01-09.04.38:467][338]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.01-09.04.38:495][338]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.01-09.04.38:495][338]PIE: New page: PIE session: Level1 (Oct 1, 2018, 1:04:38 PM)
+[2018.10.01-09.04.38:495][338]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.01-09.04.38:497][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001966s)
+[2018.10.01-09.04.38:498][338]LogAIModule: Creating AISystem for world Level1
+[2018.10.01-09.04.38:498][338]LogPlayLevel: PIE: World Init took: (0.000959s)
+[2018.10.01-09.04.38:498][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003095s)
+[2018.10.01-09.04.38:535][338]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.01-09.04.38:548][338]LogInit: FAudioDevice initialized.
+[2018.10.01-09.04.38:582][338]LogLoad: Game class is 'GameModeBase'
+[2018.10.01-09.04.38:583][338]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.10.01-11.04.38
+[2018.10.01-09.04.38:584][338]LogWorld: Bringing up level for play took: 0.000884
+[2018.10.01-09.04.38:596][338]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.442
+[2018.10.01-09.04.46:750][814]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-09.04.46:797][814]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.01-09.04.46:825][814]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-09.04.46:855][815]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.10.01-09.04.47:555][846]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.01-09.06.03:257][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.01-09.06.03:292][650]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctional4D05816B460939C35910D8A95E9A06E7.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.01-09.06.08:859][935]LogSlate: Window 'Message Log' being destroyed
+[2018.10.01-09.06.08:862][935]LogSlate: Window 'Message Log' being destroyed
+[2018.10.01-09.06.10:539][942]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.01-09.06.14:496][136]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.01-09.06.14:526][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.01-09.06.14:526][136]PIE: New page: PIE session: Level1 (Oct 1, 2018, 1:06:14 PM)
+[2018.10.01-09.06.14:526][136]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.01-09.06.14:528][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001736s)
+[2018.10.01-09.06.14:529][136]LogAIModule: Creating AISystem for world Level1
+[2018.10.01-09.06.14:529][136]LogPlayLevel: PIE: World Init took: (0.001174s)
+[2018.10.01-09.06.14:529][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003102s)
+[2018.10.01-09.06.14:567][136]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.01-09.06.14:580][136]LogInit: FAudioDevice initialized.
+[2018.10.01-09.06.14:611][136]LogLoad: Game class is 'GameModeBase'
+[2018.10.01-09.06.14:612][136]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.10.01-11.06.14
+[2018.10.01-09.06.14:612][136]LogWorld: Bringing up level for play took: 0.000522
+[2018.10.01-09.06.14:625][136]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.413
+[2018.10.01-09.06.19:560][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-09.06.19:597][430]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.01-09.06.19:624][430]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-09.06.19:667][432]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.10.01-09.06.20:407][466]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.01-09.07.09:453][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.01-09.07.09:487][808]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctionalCB711FC449FC806FFBD6D8B82CCF4D65.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.01-09.07.17:573][209]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.01-09.07.17:609][209]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctional1D9297D34917430FD71628BDC2B41B53.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.01-09.07.22:722][355]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.01-09.07.26:051][515]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.01-09.07.26:075][515]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.01-09.07.26:075][515]PIE: New page: PIE session: Level1 (Oct 1, 2018, 1:07:26 PM)
+[2018.10.01-09.07.26:076][515]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.01-09.07.26:078][515]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002166s)
+[2018.10.01-09.07.26:079][515]LogAIModule: Creating AISystem for world Level1
+[2018.10.01-09.07.26:079][515]LogPlayLevel: PIE: World Init took: (0.001177s)
+[2018.10.01-09.07.26:079][515]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003536s)
+[2018.10.01-09.07.26:115][515]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.01-09.07.26:128][515]LogInit: FAudioDevice initialized.
+[2018.10.01-09.07.26:162][515]LogLoad: Game class is 'GameModeBase'
+[2018.10.01-09.07.26:163][515]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.10.01-11.07.26
+[2018.10.01-09.07.26:164][515]LogWorld: Bringing up level for play took: 0.000693
+[2018.10.01-09.07.26:176][515]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.863
+[2018.10.01-09.07.29:654][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-09.07.29:693][722]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.01-09.07.29:723][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-09.07.29:767][724]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.10.01-09.07.32:503][830]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.01-09.08.22:779][315]BlueprintLog: New page: Collapse to Function
+[2018.10.01-09.08.28:825][608]LogEditorTransaction: Undo Move Node
+[2018.10.01-09.08.29:638][641]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2018.10.01-09.09.18:435][ 30]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.01-09.10.28:124][452]BlueprintLog: New page: Collapse to Function
+[2018.10.01-09.11.38:389][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.01-09.11.38:435][936]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctionalDEAB8A4148479B237F7FF186B1FF7E16.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.01-09.22.21:540][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.01-09.22.21:584][652]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctionalF064E1A841FB89EB4E6100A9602976A1.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.01-09.22.25:100][830]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.01-09.22.27:924][964]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.01-09.22.27:951][964]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.01-09.22.27:951][964]PIE: New page: PIE session: Level1 (Oct 1, 2018, 1:22:27 PM)
+[2018.10.01-09.22.27:951][964]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.01-09.22.27:953][964]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001981s)
+[2018.10.01-09.22.27:954][964]LogAIModule: Creating AISystem for world Level1
+[2018.10.01-09.22.27:954][964]LogPlayLevel: PIE: World Init took: (0.001203s)
+[2018.10.01-09.22.27:954][964]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003347s)
+[2018.10.01-09.22.27:991][964]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.01-09.22.28:006][964]LogInit: FAudioDevice initialized.
+[2018.10.01-09.22.28:035][964]LogLoad: Game class is 'GameModeBase'
+[2018.10.01-09.22.28:036][964]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.10.01-11.22.28
+[2018.10.01-09.22.28:036][964]LogWorld: Bringing up level for play took: 0.000653
+[2018.10.01-09.22.28:050][964]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1.011
+[2018.10.01-09.22.32:001][199]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-09.22.32:041][199]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.01-09.22.32:070][199]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-09.22.32:114][201]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.10.01-09.22.32:627][224]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.01-09.23.29:337][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.01-09.23.29:379][  0]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctional977CA9964938C0A443F8AF9849CA595D.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.01-09.23.31:779][122]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.01-09.23.34:921][273]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.01-09.23.34:951][273]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.01-09.23.34:951][273]PIE: New page: PIE session: Level1 (Oct 1, 2018, 1:23:34 PM)
+[2018.10.01-09.23.34:951][273]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.01-09.23.34:953][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001825s)
+[2018.10.01-09.23.34:954][273]LogAIModule: Creating AISystem for world Level1
+[2018.10.01-09.23.34:954][273]LogPlayLevel: PIE: World Init took: (0.001014s)
+[2018.10.01-09.23.34:954][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.002994s)
+[2018.10.01-09.23.34:991][273]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.01-09.23.35:005][273]LogInit: FAudioDevice initialized.
+[2018.10.01-09.23.35:036][273]LogLoad: Game class is 'GameModeBase'
+[2018.10.01-09.23.35:037][273]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.10.01-11.23.35
+[2018.10.01-09.23.35:037][273]LogWorld: Bringing up level for play took: 0.000524
+[2018.10.01-09.23.35:050][273]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.011
+[2018.10.01-09.23.42:197][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-09.23.42:233][700]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.01-09.23.42:263][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-09.23.42:306][702]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.10.01-09.23.42:860][728]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.01-09.24.34:753][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.01-09.24.34:795][282]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctionalADA3228049B2750D2F17B5930BF6652B.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.01-09.24.37:141][403]Cmd: TRANSACTION UNDO
+[2018.10.01-09.24.37:141][403]LogEditorTransaction: Undo Create Pin Link
+[2018.10.01-09.24.38:346][454]Cmd: TRANSACTION UNDO
+[2018.10.01-09.24.38:346][454]LogEditorTransaction: Undo Move Nodes
+[2018.10.01-09.24.54:562][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CaptainFunctional" FILE="../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset" SILENT=true
+[2018.10.01-09.24.54:601][249]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/CaptainFunctionalF923BC6445A24766144850B58C732C8B.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Content/Blueprints/CaptainFunctional.uasset'
+[2018.10.01-09.25.04:005][729]BlueprintLog: New page: Compile CaptainFunctional
+[2018.10.01-09.25.07:165][880]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.01-09.25.07:197][880]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.01-09.25.07:198][880]PIE: New page: PIE session: Level1 (Oct 1, 2018, 1:25:07 PM)
+[2018.10.01-09.25.07:198][880]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.10.01-09.25.07:199][880]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001741s)
+[2018.10.01-09.25.07:201][880]LogAIModule: Creating AISystem for world Level1
+[2018.10.01-09.25.07:201][880]LogPlayLevel: PIE: World Init took: (0.000949s)
+[2018.10.01-09.25.07:201][880]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.002825s)
+[2018.10.01-09.25.07:238][880]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.01-09.25.07:250][880]LogInit: FAudioDevice initialized.
+[2018.10.01-09.25.07:279][880]LogLoad: Game class is 'GameModeBase'
+[2018.10.01-09.25.07:280][880]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.10.01-11.25.07
+[2018.10.01-09.25.07:280][880]LogWorld: Bringing up level for play took: 0.000573
+[2018.10.01-09.25.07:293][880]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.255
+[2018.10.01-09.25.14:709][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-09.25.14:751][322]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.01-09.25.14:778][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-09.25.14:808][323]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.10.01-09.25.15:489][353]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.01-09.25.41:987][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Levels/Level1_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.10.01-09.25.42:018][620]LogSavePackage: Moving '../../../../../../Development/CaptFunctionalUnreal/Saved/Level1_Auto44BC43DAB4428C4B1AD9632A1C8CDD5B2.tmp' to '../../../../../../Development/CaptFunctionalUnreal/Saved/Autosaves/Game/Levels/Level1_Auto4.umap'
+[2018.10.01-09.25.42:022][620]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level1' took 0.063
+[2018.10.01-09.25.42:022][620]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.063
+[2018.10.01-09.25.51:381][ 83]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.128 s
+[2018.10.01-09.25.51:381][ 83]LogOutputDevice: Error: === Handled ensure: ===
+[2018.10.01-09.25.51:381][ 83]LogOutputDevice: Error: 
+[2018.10.01-09.25.51:381][ 83]LogOutputDevice: Error: Ensure condition failed: !InputKeys.Contains(Key) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\InputCore\Private\InputCoreTypes.cpp] [Line: 717]
+[2018.10.01-09.25.51:381][ 83]LogOutputDevice: Error: Adding duplicate key 'UnknownCharCode_180'
+[2018.10.01-09.25.51:381][ 83]LogOutputDevice: Error: Stack: 
+[2018.10.01-09.25.51:381][ 83]LogOutputDevice: Error: [Callstack] 0x00007ffc46e371f6 UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:236]
+[2018.10.01-09.25.51:381][ 83]LogOutputDevice: Error: [Callstack] 0x00007ffc46b70c92 UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:305]
+[2018.10.01-09.25.51:381][ 83]LogOutputDevice: Error: [Callstack] 0x00007ffc46b8b356 UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalseImpl() [d:\build\++ue4\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:439]
+[2018.10.01-09.25.51:382][ 83]LogOutputDevice: Error: [Callstack] 0x00007ffc647097d8 UE4Editor-InputCore.dll!EKeys::AddKey() [d:\build\++ue4\sync\engine\source\runtime\inputcore\private\inputcoretypes.cpp:717]
+[2018.10.01-09.25.51:382][ 83]LogOutputDevice: Error: [Callstack] 0x00007ffc6470d6a5 UE4Editor-InputCore.dll!FInputKeyManager::GetKeyFromCodes() [d:\build\++ue4\sync\engine\source\runtime\inputcore\private\inputcoretypes.cpp:1178]
+[2018.10.01-09.25.51:382][ 83]LogOutputDevice: Error: [Callstack] 0x00007ffc439399a9 UE4Editor-Slate.dll!FSlateApplication::OnKeyUp() [d:\build\++ue4\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5064]
+[2018.10.01-09.25.51:382][ 83]LogOutputDevice: Error: [Callstack] 0x00007ffc628fcfd6 UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:1651]
+[2018.10.01-09.25.51:382][ 83]LogOutputDevice: Error: [Callstack] 0x00007ffc628f0270 UE4Editor-ApplicationCore.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:2182]
+[2018.10.01-09.25.51:382][ 83]LogOutputDevice: Error: [Callstack] 0x00007ffc628ff4c5 UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:895]
+[2018.10.01-09.25.51:382][ 83]LogOutputDevice: Error: [Callstack] 0x00007ffc628ec209 UE4Editor-ApplicationCore.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:732]
+[2018.10.01-09.25.51:382][ 83]LogOutputDevice: Error: [Callstack] 0x00007ffc74496cc1 USER32.dll!UnknownFunction []
+[2018.10.01-09.25.51:382][ 83]LogOutputDevice: Error: [Callstack] 0x00007ffc74496693 USER32.dll!UnknownFunction []
+[2018.10.01-09.25.51:382][ 83]LogOutputDevice: Error: [Callstack] 0x00007ffc62900646 UE4Editor-ApplicationCore.dll!FWindowsPlatformApplicationMisc::PumpMessages() [d:\build\++ue4\sync\engine\source\runtime\applicationcore\private\windows\windowsplatformapplicationmisc.cpp:129]
+[2018.10.01-09.25.51:382][ 83]LogOutputDevice: Error: [Callstack] 0x00007ff629c754e5 UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3417]
+[2018.10.01-09.25.51:382][ 83]LogOutputDevice: Error: [Callstack] 0x00007ff629c85b3c UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2018.10.01-09.25.51:382][ 83]LogOutputDevice: Error: [Callstack] 0x00007ff629c85bba UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:144]
+[2018.10.01-09.25.51:382][ 83]LogOutputDevice: Error: [Callstack] 0x00007ff629c93dac UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:223]
+[2018.10.01-09.25.51:382][ 83]LogOutputDevice: Error: [Callstack] 0x00007ff629c95aaa UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:283]
+[2018.10.01-09.25.51:382][ 83]LogOutputDevice: Error: [Callstack] 0x00007ffc750d3034 KERNEL32.DLL!UnknownFunction []
+[2018.10.01-09.25.51:382][ 83]LogOutputDevice: Error: [Callstack] 0x00007ffc75221461 ntdll.dll!UnknownFunction []
+[2018.10.01-09.25.51:382][ 83]LogOutputDevice: Error: 
+[2018.10.01-09.25.51:387][ 83]LogStats:                SubmitErrorReport -  0.000 s
