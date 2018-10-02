@@ -1,10 +1,10 @@
 use amethyst::assets::{AssetStorage, Loader};
 use amethyst::core::cgmath::{Vector3, Matrix4};
 use amethyst::core::transform::{GlobalTransform, Transform};
-use amethyst::ecs::prelude::{Entity, Component, DenseVecStorage};
+use amethyst::ecs::prelude::{Entity, Component, DenseVecStorage, Dispatcher, DispatcherBuilder, System, World};
 use amethyst::input::{is_close_requested, is_key_down};
 use amethyst::prelude::*;
-use amethyst::ui::{Anchor, TtfFormat, UiTransform};
+use amethyst::ui::{Anchor, TtfFormat, UiTransform, UiText};
 use amethyst::renderer::{
     Camera, Event, PngFormat, Projection, Sprite, Texture, TextureHandle,
     VirtualKeyCode, WithSpriteRender, 
@@ -79,6 +79,7 @@ pub struct UI_Entities {
     pub player_score: Entity,
 }
 
+
 impl Boss_Shield {
 	pub fn new(position: f32) -> Boss_Shield {
 		let _progress: f32 = (PI * 2.0) * ( position/3.0);
@@ -86,7 +87,7 @@ impl Boss_Shield {
 			width: BOSS_SHIELD_SIZE,
 			height: BOSS_SHIELD_SIZE,
 			progress: _progress,
-			active, false,
+			active: false,
 		}
 	}
 }
@@ -116,12 +117,13 @@ fn initialise_camera(world: &mut World) {
 
 fn initialise_score(world: &mut World) {
     let font = world.read_resource::<Loader>().load(
-        "/font/CREABBB.ttf",
+        "font/square.ttf",
         TtfFormat,
         Default::default(),
         (),
         &world.read_resource(),
     );
+
     let p1_transform = UiTransform::new(
         "P1".to_string(),
         Anchor::TopMiddle,
@@ -144,7 +146,7 @@ fn initialise_score(world: &mut World) {
         0,
     );
 
-    /*let player_health = world
+    let player_health = world
         .create_entity()
         .with(p1_transform)
         .with(UiText::new(
@@ -162,7 +164,8 @@ fn initialise_score(world: &mut World) {
             [1.0, 1.0, 1.0, 1.0],
             50.,
         )).build();
-    world.add_resource(UI_Entities { player_health, player_score });*/
+
+    world.add_resource(UI_Entities { player_health, player_score });
 }
 
 fn initialise_enemys(world: &mut World, spritesheet: TextureHandle) {
@@ -370,7 +373,7 @@ impl<'a, 'b> State<GameData<'a, 'b>> for Captain_Functional {
     fn handle_event(&mut self, _: StateData<GameData>, event: Event) -> Trans<GameData<'a, 'b>> {
         if is_close_requested(&event) || is_key_down(&event, VirtualKeyCode::Escape) {
             Trans::Quit
-        } else {
+		}  else {
             Trans::None
         }
     }
@@ -477,6 +480,7 @@ impl<'a, 'b> State<GameData<'a, 'b>> for Captain_Functional {
 		initialise_camera(world);
 		//Cant load fonts for some reason?
 		//initialise_score(world);
+		
 	}
 }
 
@@ -498,4 +502,3 @@ impl Component for Boss {
 impl Component for Boss_Shield {
 	type Storage = DenseVecStorage<Self>;
 }
-

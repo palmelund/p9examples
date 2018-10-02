@@ -1,7 +1,7 @@
 use amethyst::ecs::{System, WriteStorage, Read, Join};
 use amethyst::core::Transform;
 use amethyst::core::timing::Time;
-use captain_functional::{Enemy, ARENA_HEIGHT, ARENA_WIDTH, Boss};
+use captain_functional::{Enemy, ARENA_HEIGHT, ARENA_WIDTH, Boss, Boss_Shield};
 
 const spawnCount: i32 = 5;
 
@@ -18,10 +18,11 @@ impl<'s> System<'s> for SpawnEnemies {
         WriteStorage<'s, Transform>,
 		WriteStorage<'s, Enemy>,
 		WriteStorage<'s, Boss>,
+		WriteStorage<'s, Boss_Shield>,
 		Read<'s, Time>,
     );
 
-    fn run(&mut self, (mut transforms, mut enemies, mut bosses, time): Self::SystemData) {
+    fn run(&mut self, (mut transforms, mut enemies, mut bosses, mut boss_shields, time): Self::SystemData) {
         self.counter += time.delta_seconds();
         if self.counter > spawnrate {
 
@@ -43,6 +44,9 @@ impl<'s> System<'s> for SpawnEnemies {
 					transform.translation[0] = ARENA_WIDTH+50.0;
 					transform.translation[1] = ARENA_HEIGHT*0.5;
 					break;
+				}
+				for shield in (&mut boss_shields).join(){
+					shield.active = true;
 				}
 			}
         }

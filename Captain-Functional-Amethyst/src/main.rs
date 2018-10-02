@@ -43,6 +43,7 @@ fn main() -> Result<(), amethyst::Error> {
 		.with_bundle(RenderBundle::new(pipe, Some(config)))?
 		.with_bundle(input_bundle)?
 		.with_bundle(CaptainBundle)?;
+
 	let mut game = Application::new("./", Captain_Functional, game_data)?;
 	game.run();
     Ok(())

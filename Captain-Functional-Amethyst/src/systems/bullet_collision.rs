@@ -21,7 +21,7 @@ impl<'s> System<'s> for BulletCollision {
 		Write<'s, GameStats>,
     );
 
-    fn run(&mut self, (mut bullets, mut enemies, mut bosses, mut boss_shields  transforms, mut game_stats): Self::SystemData) {
+    fn run(&mut self, (mut bullets, mut enemies, mut bosses, mut boss_shields,  transforms, mut game_stats): Self::SystemData) {
         for (bullet, bullet_trans) in (&mut bullets, &transforms).join() {
 			if bullet.active{
 				for (enemy, enemy_trans) in (&mut enemies, &transforms).join() {
@@ -38,9 +38,16 @@ impl<'s> System<'s> for BulletCollision {
 				for (shield, shield_trans) in (&mut boss_shields, &transforms).join(){
 					if shield.active && rect_overlap(bullet_trans.translation[0], bullet_trans.translation[1], BULLET_SIZE, shield_trans.translation[0], shield_trans.translation[1], BOSS_SHIELD_SIZE){
 						shield.active = false;
-						for shield in (&mut bosses).join(){
-							shield.shieldAmount -= 1;
+						bullet.active = false;
+						for boss in (&mut bosses).join(){
+							boss.shieldAmount -= 1;
 						}
+					}
+				}
+				for (boss, boss_trans) in (&mut bosses, &transforms).join(){
+					if boss.shieldAmount == 0 && rect_overlap(bullet_trans.translation[0], bullet_trans.translation[1], BULLET_SIZE, boss_trans.translation[0], boss_trans.translation[1], BOSS_SIZE){
+						bullet.active = false;
+						println!("GZ you won");
 					}
 				}
 			}
