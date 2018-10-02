@@ -99,7 +99,7 @@ StyleCopReport.xml
 *_p.c
 *_h.h
 *.ilk
-*.meta
+#*.meta
 *.iobj
 *.pdb
 *.ipdb
@@ -746,3 +746,5 @@ DerivedDataCache/*
 Captain-Functional-Amethyst/Cargo\.lock
 
 Captain-Functional-Amethyst/target/
+
+*/Assets/Plugins/Editor/JetBrains*
