@@ -1,4 +1,4 @@
-use amethyst::ecs::{System, WriteStorage, ReadStorage, Read, Join};
+use amethyst::ecs::{System, WriteStorage, Read, Join};
 use amethyst::core::Transform;
 use amethyst::core::timing::Time;
 use captain_functional::{Enemy, ARENA_HEIGHT, ARENA_WIDTH, Boss};

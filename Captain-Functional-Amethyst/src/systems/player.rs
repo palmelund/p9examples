@@ -1,13 +1,9 @@
 use amethyst::core::timing::Time;
 use amethyst::input::InputHandler;
-use amethyst::core::transform::{GlobalTransform, Transform};
-use amethyst::ecs::prelude::{Join, Read, ReadStorage, System, WriteStorage,Entities};
-use amethyst::core::cgmath::{Vector2};
-use captain_functional::{Player, Player_Bullet, PLAYER_SIZE};
-use amethyst::renderer::{
-    Camera, Event, PngFormat, Projection, Sprite, Texture, TextureHandle,
-    VirtualKeyCode, WithSpriteRender,
-};
+use amethyst::core::transform::{Transform};
+use amethyst::ecs::prelude::{Join, Read, ReadStorage, System, WriteStorage};
+use captain_functional::{Player, Player_Bullet};
+use amethyst::renderer::{ VirtualKeyCode };
 /// This system is responsible for moving all balls according to their speed
 /// and the time passed.
 pub struct PlayerSystem{
@@ -46,7 +42,6 @@ impl<'s> System<'s> for PlayerSystem {
 						.min(1600.0)
 						.max(60.0);
 			}
-			let currentTime: u128 = ((time.absolute_time().as_secs()*1000) + (time.absolute_time().subsec_millis() as u64)) as u128;
 			
 			if space && self.counter > FireRate {
 				self.counter = 0.0;

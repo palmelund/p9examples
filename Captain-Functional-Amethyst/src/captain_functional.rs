@@ -4,11 +4,10 @@ use amethyst::core::transform::{GlobalTransform, Transform};
 use amethyst::ecs::prelude::{Entity, Component, DenseVecStorage};
 use amethyst::input::{is_close_requested, is_key_down};
 use amethyst::prelude::*;
-use std::time::{Duration, Instant};
-use amethyst::ui::{Anchor, TtfFormat, UiText, UiTransform};
+use amethyst::ui::{Anchor, TtfFormat, UiTransform};
 use amethyst::renderer::{
     Camera, Event, PngFormat, Projection, Sprite, Texture, TextureHandle,
-    VirtualKeyCode, WithSpriteRender, WindowMessages,
+    VirtualKeyCode, WithSpriteRender, 
 };
 
 use std::f32::consts::PI;
@@ -22,6 +21,8 @@ pub const BOSS_SHIELD_SIZE: f32 = 80.0;
 
 pub const ARENA_HEIGHT: f32 = 800.0;
 pub const ARENA_WIDTH: f32 = 1600.0;
+
+pub const ENEMY_SCORE_REWARD: i32 = 10;
 
 const BULLET_POOL: i32 = 20;
 const ENEMY_POOL: i32 = 20;
@@ -41,14 +42,19 @@ pub struct Enemy {
 }
 
 pub struct Player_Bullet {
-	pub width: f32,
-	pub height: f32,
 	pub active: bool,
 }
 
+#[derive(Default)]
+pub struct GameStats{
+	pub score: i32,
+	pub player_health: i32,
+}
+
 pub struct EnemyBullet {
-	pub width: f32,
-	pub height: f32,
+	pub spawn: bool,
+	pub spawn_x: f32,
+	pub spawn_y: f32,
 	pub active: bool,
 }
 
@@ -79,6 +85,15 @@ impl Boss_Shield {
 			width: BOSS_SHIELD_SIZE,
 			height: BOSS_SHIELD_SIZE,
 			progress: _progress,
+		}
+	}
+}
+
+impl GameStats {
+	pub fn new() -> GameStats {
+		GameStats {
+			score: 0,
+			player_health: 3,
 		}
 	}
 }
@@ -203,8 +218,6 @@ fn initialise_player_bullets(world: &mut World, spritesheet: TextureHandle) {
 		const SPRITESHEET_SIZE: (f32, f32) = (BULLET_SIZE, BULLET_SIZE);
 
 		let bullet = Player_Bullet{
-			height: BULLET_SIZE,
-			width: BULLET_SIZE,
 			active: false,
 		};
 		// Create a left plank entity.
@@ -238,8 +251,9 @@ fn initialise_enemy_bullets(world: &mut World, spritesheet: TextureHandle) {
 		const SPRITESHEET_SIZE: (f32, f32) = (BULLET_SIZE, BULLET_SIZE);
 
 		let bullet = EnemyBullet{
-			height: BULLET_SIZE,
-			width: BULLET_SIZE,
+			spawn: false,
+			spawn_x: 0.0,
+			spawn_y: 0.0,
 			active: false,
 		};
 		// Create a left plank entity.
@@ -367,6 +381,7 @@ impl<'a, 'b> State<GameData<'a, 'b>> for Captain_Functional {
 	fn on_start(&mut self, data: StateData<GameData>) {
 		let world = data.world;
 		world.register::<Player>();
+		world.register::<Enemy>();
 		world.register::<Player_Bullet>();
 		world.register::<Boss>();
 		world.register::<Boss_Shield>();
