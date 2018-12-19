@@ -1,23 +1,27 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 
 public class BusyPlay : MonoBehaviour
 {
+    public int Iteration = 0;
+    public int IterationLimit;
+    
     // Update is called once per frame
     void Start()
     {
         var audio = GetComponent<AudioSource>();
-       
         audio.Play();
-        
-        Debug.Log(audio.isPlaying);
     }
 
     private void Update()
     {
+        Iteration++;
 
-        
-        while(true){}
+        if (Iteration == IterationLimit)
+        {
+            Thread.Sleep(5000);
+        }
     }
 }
